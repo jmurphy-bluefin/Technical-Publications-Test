@@ -13,42 +13,58 @@ The publisher has used their best efforts in preparing this manual. Bluefin Robo
 The information in this manual is subject to change without notice at the discretion of Bluefin Robotics Corporation.
 
 How to Contact Bluefin Robotics Corporation:
+
 Bluefin Robotics Corporation
+
 553 South Street
+
 Quincy, MA 02169
+
 http://www.bluefinrobotics.com
+
 Telephone: (617) 715-7000
+
 E-mail: support@BluefinRobotics.com
+
 ## Revision History
+
 Based on 000-018-604RA September 18, 2015. New document created in wiki 2016-01-26.
 
 # Preface
+
 Welcome to the Operations Manual for the Sandshark. This document is intended to familiarize you with the system and provide you with the information necessary to carry out unmanned underwater vehicle (UUV) operations.
+
 To prevent loss or damage to the UUV, Bluefin has included many safety recommendations in this manual that should be followed carefully and should not be changed. These recommendations are highlighted with leading text indicating Warning, Caution, and Note.
+
 This guide contains references to checklists and other manuals in the documentation set. This includes manuals for open-source software and commercial off-the-shelf (COTS) manuals. Please ensure that you have a full documentation set available before you begin any UUV maintenance, as descriptions of all of the tasks performed in a given procedure may not be covered in this guide. Contact Bluefin if you need extra copies of any manual in this documentation set.
+
 ## List of Reference Documents
+
 This section lists the manuals Bluefin provides for the UUV system. Bluefin recommends that operators, supervisors, and technicians responsible for operating and maintaining the UUV become familiar with the contents of these manuals before using the equipment.
-|-------------------------------|
-|Reference Documents |
-|Document Name|Document Number|
-|--------------------------------------|
-|Sandshark Quickstart Card	|000-018-605|
-|Sandshark Operations Manual|	000-018-604|
-|Sandshark Pre-Dive Checklist|	000-018-602|
-|Sandshark Dive Log	|000-018-603|
-|Sandshark Post-Dive Checklist|	000-019-134|
-|Sandshark Mobilization Checklist|	000-019-135|
-|qgroundcontrol User Guide:
-http://qgroundcontrol.org/	|
-|ROS User Guide:
-http://wiki.ros.org	|
-|ROS Cheat Sheet:
-http://services.informatik.hs-mannheim.de/~ihme/robotik_2014ws/01_ROScheatsheet.pdf	|
-|A Gentle Introduction to ROS:
-https://cse.sc.edu/~jokane/agitr/	|
-|Commercial Off The Shelf (COTS) Manuals	|On Technical Publications CD|
-|Material Safety Data Sheets (MSDS) Package	|On Technical Publications CD|
-|-------------------------------|
+
+
+| ------------------------------- |
+| Reference Documents |
+| Document Name | Document Number |
+| -------------------------------------- |
+| Sandshark Quickstart Card	| 000-018-605 |
+| Sandshark Operations Manual | 000-018-604 |
+| Sandshark Pre-Dive Checklist |  |
+| Sandshark Dive Log |  |
+| Sandshark Post-Dive Checklist |  |
+| Sandshark Mobilization Checklist |  |
+| qgroundcontrol User Guide: 
+ http://qgroundcontrol.org/ |
+| ROS User Guide: 
+ http://wiki.ros.org |
+| ROS Cheat Sheet: 
+ http://services.informatik.hs-mannheim.de/~ihme/robotik_2014ws/01_ROScheatsheet.pdf |
+| A Gentle Introduction to ROS: 
+ https://cse.sc.edu/~jokane/agitr/ |
+| Commercial Off The Shelf (COTS) Manuals | On Technical Publications CD |
+| Material Safety Data Sheets (MSDS) Package | On Technical Publications CD |
+| ------------------------------- |
+
 
 ## Intended Audience
 This guide is written for personnel who operate, maintain, troubleshoot, and repair the Sandshark system. Users of the UUV system should possess the following experience:
