@@ -42,11 +42,10 @@ This guide contains references to checklists and other manuals in the documentat
 
 This section lists the manuals Bluefin provides for the UUV system. Bluefin recommends that operators, supervisors, and technicians responsible for operating and maintaining the UUV become familiar with the contents of these manuals before using the equipment.
 
+**Table: Reference Documents**
 
-| ------------------------------- |
-| Reference Documents |
 | Document Name | Document Number |
-| -------------------------------------- |
+| --- | --- |
 | Sandshark Quickstart Card	| 000-018-605 |
 | Sandshark Operations Manual | 000-018-604 |
 | Sandshark Pre-Dive Checklist |  |
@@ -63,29 +62,36 @@ This section lists the manuals Bluefin provides for the UUV system. Bluefin reco
  https://cse.sc.edu/~jokane/agitr/ |
 | Commercial Off The Shelf (COTS) Manuals | On Technical Publications CD |
 | Material Safety Data Sheets (MSDS) Package | On Technical Publications CD |
-| ------------------------------- |
 
 
 ## Intended Audience
+
 This guide is written for personnel who operate, maintain, troubleshoot, and repair the Sandshark system. Users of the UUV system should possess the following experience:
 * Knowledge of underwater navigation and underwater vehicle operation. 
 * Experience in the field of undersea systems.
 * Experience with marine operations and handling sub-sea equipment.
 * Basic understanding of Linux.
 * Experience with electrical systems.
+
 ## Training
+
 Bluefin has provided this manual to assist you in operating and maintaining the Sandshark system. Users are expected to have undergone Bluefin’s UUV training program. Users operating and maintaining the UUV must be trained in its use. Do not attempt to perform maintenance on or repairs to this system if you have not been trained in operation and maintenance of the UUV. Contact the Marine Operations Department at Bluefin for training details.
+
 ## Glossary
+
 *Shall* is used only when application of a procedure is mandatory.
 *Should* is used only when application of a procedure is recommended.
 *May* and *need not* are used only when application of a procedure is discretionary.
 *Will* is used only to refer to the future, never to indicate any degree of requirement for application of procedure.
+
 ### Abbreviations and Product Specific Terms
+
 The abbreviations and product specific terminology used in this manual are described in the table below.
-|-----------------------------|
-|Glossary |
+
+**Table: Glossary**
+
 |Abbreviation or Term|	Description|
-|-----------------------------------------------|
+|--- | --- |
 |COTS	|Commercial off-the-shelf|
 |Deployment	|The complete trip, from the time the ship (loaded with an UUV and all support equipment) leaves the dock, until it returns. A deployment may comprise multiple missions containing multiple dives. The deployment leaves from the mobilization/demobilization site.| 
 |Dive	|A single operational segment during which the UUV executes a set of uploaded waypoints, returning to the surface once complete. The UUV may surface multiple times in a single dive to acquire GPS positions, but the dive is not complete until all waypoints have been executed, or the dive has been aborted by the UUV or the operator.|
@@ -95,164 +101,247 @@ The abbreviations and product specific terminology used in this manual are descr
 |Mission	|A series of one or more dives the UUV completes to accomplish a larger task. For example, during one dive, the UUV might run a lawnmower pattern over a certain area to collect sonar data, and during the second dive, it may perform the same task in an adjacent area.|
 |PMA	|Post-mission analysis|
 |PV	|Pressure vessel|
-|------------------------------------------|
+
 ## Classification of Hazards
+
 The warnings, cautions, and notes contained in this manual are defined as follows:
+
 **Warning**
+
 <image warning>	**Identifies an operating procedure, practice, condition or statement which, if not strictly observed, could result in injury or death.**
 
 **Caution**
+
 <image caution>	**Identifies an operating or maintenance procedure, practice, condition, or statement which, if not strictly observed, could result in equipment damage or destruction, loss of mission effectiveness, long-term health hazards, or environmental damage.**
 
 **Note**
+
 *Note: An essential operating or maintenance procedure, condition, or statement.*
 
 ## Warning
+
 ###General Warnings
 
 <image warning>	**Procedures in this guide may require handling hazardous materials. Personnel shall become familiar with hazards and comply with the guidance in the applicable material safety data sheets (MSDSs).**
+
 <image warning>	**Do not put fingers between the propeller blades. Always use a stick or probe to move propeller blades.**
+
 <image warning>	**When opening or closing UUV shipping container latches, always make sure that the latches are flush with the side of the shipping containers. Latches that protrude from the shipping container may cause injuries.**
 
 ### Battery Warnings
 
 <image warning>	**Before operating an UUV Battery, operators must read all warnings provided in this manual.
 Batteries are defined as hazardous materials for the purpose of shipping and cannot be shipped with the rest of the system. Remove the batteries and ship separately. Only personnel certified in shipping hazardous materials are authorized to pack and ship batteries. Non-certified personnel may repack the batteries in the original shipping box for return to Bluefin Robotics.
+
 These conditions should be avoided:
 1. Do not expose the lithium polymer cell material inside the battery directly to water.
 2. Do not attempt to overcharge or overdischarge the battery.
 3. Do not expose the battery to an ambient temperature of more than 55°C (130°F).
 4. Do not attempt to charge the battery when the ambient temperature is less than 0°C (32°F) or greater than 45°C (113°F).
+
 The conditions listed above could cause a condition where the battery cells permanently lose capacity or the cells exceed their safe operating temperature and become a fire hazard.
+
 Shipboard operations require the local verification of fire fighting capabilities equivalent to or better than the following:
--Sprinkler protected space with a minimum of seven (7) gallons per minute flow rate
+* Sprinkler protected space with a minimum of seven (7) gallons per minute flow rate
 or
--A standard 1.5 inch shipboard firehose.
+* A standard 1.5 inch shipboard firehose.
 or
--Lith-X or similar smothering agent including a Class D fire extinguisher with copper based extinguishing media.
+* Lith-X or similar smothering agent including a Class D fire extinguisher with copper based extinguishing media.
+
 In the event of fire where lithium ion batteries are present, call 911 or local emergency services and flood the area with water where it is safe to do so. Virtually all fires involving lithium ion batteries can be controlled with water. When water is used, however, hydrogen gas may be released, which can form an explosive mixture with air, so ensure water is only used in well ventilated areas. Where water is not available, LITH-X or Class D copper powder fire extinguishers, sand, dry ground dolomite or soda ash may also be used as smothering agents.
+
 Fire fighters should wear self-contained breathing apparatus.
+
 Burning lithium polymer batteries can produce toxic fumes including HF, oxides of carbon, aluminum, lithium, copper, and cobalt. Volatile phosphorus pentaflouride may form at a temperature above 110°C (230°F).**
+
 <image warning>	**Do not cut into, puncture, drop, or damage the battery.
+
 Do not attempt to measure the battery current by directly connecting a meter between the positive and negative terminals. This will cause high current to flow and the internal fuse to blow, potentially resulting in damage to the battery’s electronics.
+
 Do not purposely short the battery terminals.
+
 NEVER force any probe, wire, or other instrument or hardware in to the battery connectors.**
+
 <image warning>	**Batteries are defined as hazardous materials for the purpose of shipping and cannot be shipped with the rest of the system. Remove them and ship them separately in the provided packaging. 
+
 Only personnel certified in the shipping of hazardous materials are authorized to pack and ship the batteries to locations other than Bluefin Robotics. Non-certified personnel may pack the batteries in their original shipping box and ship them back to Bluefin Robotics.**
+
 ## Cautions
+
 ### General Cautions
+
 <image caution>	**The tailcone is designed to operate in water. Do not allow the tailcone to run in air longer than five minutes, because it may overheat.**
+
 <image caution>	**Do not power wash the UUV or its components as this may cause damage to the UUV or its components.**
+
 <image caution>	**Do not use an O-ring that shows any sign of damage or wear. 
+
 Do not remove a connector by pulling on the cable as this may damage the integrity of the cable.
 Cables and connectors that are pinched, compressed, or otherwise under strain in the stowed position may lose their watertight integrity.
+
 Do not allow DC-4 Silicone Grease lubricant to come into contact with the connecting faces, pins, or pin sockets of the connectors as this may compromise the electrical connection.
+
 Do not bend wet-mateable connectors back and forth to work the connectors together. Bending or squeezing the connectors causes the pins to bend and can damage the pins and connectors.**
 
 ### Battery Cautions
+
 <image caution>	**Before using a Bluefin Battery, vehicle operators must read all warnings provided in this manual.
 Ensure that the vehicle is powered OFF before removing the battery from the vehicle.
+
 Batteries should be stored in a cool place (ambient temperature less than 40°C (75°F)) away from direct sunlight. **
+
 <image caution>	**Use care not to drop batteries when handling. If a battery is damaged, contact Bluefin before using, moving, or shipping it.
+
 Do not allow water to enter the battery. 
+
 Do not place equipment or materials on the battery lid or connectors.**
+
 <image caution>	**Do not charge the batteries in ambient temperatures over 45°C (113°F). Over temperature conditions will terminate the charging cycle. Over temperature conditions may occur when charging the battery in a elevated ambient temperature environment.**
 
 # Introduction
+
 ## Sandshark
+
 The Sandshark is a self-propelled, untethered, unmanned underwater vehicle capable of conducting independent survey operations at depths up to 100 meters.
-<image>[[https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/img/octocat.png|alt=octocat]]
-**Figure: 100m Sandshark**
-The UUV system consists of two sections:
-*Tail Section — Fixed
-*Payload Section — Modular and user-defined
-## UUV Components: Tail Section
-The tail section is a pressure vessel. Some of its components are commercial off-the-shelf (COTS) components. Their documentation is collected on the Technical Publications CD.
-### Cross-Section
+
 <image>
+
+**Figure: 100m Sandshark**
+
+The UUV system consists of two sections:
+* Tail Section — Fixed
+* Payload Section — Modular and user-defined
+
+## UUV Components: Tail Section
+
+The tail section is a pressure vessel. Some of its components are commercial off-the-shelf (COTS) components. Their documentation is collected on the Technical Publications CD.
+
+### Cross-Section
+
+<image>
+
 **Figure: Tail Section Cross-Section Showing Components**
+
 ### Components
+
 #### Tailcone
+
 The tailcone (part number: 000-017-506) contains a motor inside the pressure vessel and a duct and propeller outside it.
 <image>
 **Figure: Tailcone**
+
 #### Fins
+
 The 4 articulating fins steer the vehicle. There are 2 sets:
 * low speed (part number: 000-017-508)
 * high speed (part number: 000-017-509)
+
 The low speed fins are taller than the high speed fins. Use the low speed fins for mission speeds between 1 and 2 knots. Use the high speed fins for mission speeds between 2 and 4 knots.
+
 <image>
+
 **Figure: Installing a High Speed Fin**
+
 #### Battery
+
 The battery (part number 000-016-395) is a 225 Wh Li ion battery. See Chapter 4, "Power" for more information.
 <xref>
 <image>
 **Figure: The Battery Mounted in the Battery Chassis**
+
 #### Antenna
+
 The antenna (part number: 000-016-391) contains the magnetic ON/OFF switch, communication and GPS antennas, status LEDs, and strobe lights.
+
 <image>
+
 **Figure: Antenna**
-|----------------------|
-|LED Status |
-|----------------------|
-|LED |Meaning |
-|-----------------------|
-|Blue |Vehicle powered (steady)|
-|Red |Test failed (steady)|
-| |Mission aborting (flashing)|
-| |Misson aborted (steady)|
-|Amber	 |Reserved for user-defined payload|
-|Green	|Ready to run (steady)|
-| |Running a mission (flashing)|
-|-----------------------------|
+
+**Table: LED Status**
+
+|LED | Meaning |
+|--- | ---|
+| Blue | Vehicle powered (steady) |
+| Red | Test failed (steady) |
+| | Mission aborting (flashing) |
+| | Misson aborted (steady) |
+| Amber	 | Reserved for user-defined payload |
+|Green	| Ready to run (steady) |
+| | Running a mission (flashing) |
 
 The visible and infrared strobes are configurable to be:
 * Always on 
 * Always off
 * Flashing at high speed (1x every second)
 * Flashing at low speed (1x ever 5 seconds)
+
 #### Echosounder
+
 The Imagenex 852 echosounder (part number: 000-016-370) is exposed at the bottom of the pressure vessel. It reads altitude (how far above the bottom of the body of water the vehicle is running).
+
 #### ADAPT M2M Module
+
 The ADAPT module is a Machine-to-Machine Hardware Platform that uses commercial cell phone technology to connect with general sensor devices. It contains the following sensors: accelerometer sensor, pressure/temperature sensor, gyroscope sensor, E-compass sensor and an ambient light and proximity sensor.
 For more information, see the ADAPT M2M Product Guide.
+
 #### Pressure Sensor
+
 The pressure sensor (part number: 000-016-438) is exposed on the front endcap of the tail section. It reads absolute pressure, which converts to depth (how far below the surface of the body of water the vehicle is running).
+
 #### Connectors
+
 The 8-pin payload and 4-pin charge connectors on the pressure vessel endcap are wet-matable Subconn Micro connectors.
 <image>
 **Figure:  Connectors on Endcap**
 <xref> See “External Interface” on page 81.
+
 ## UUV Components: Payload Section
+
 ### Empty Payload
+
 The empty payload contains mounting points for components, ballast, and foam. Each mounting point is a 4-40 threaded insert, compatible with standard stainless steel hardware.
+
 ### DARPA ECO-PUCK Payload
+
 The DARPA ECO-PUCK payload is a plug-and-play environmental monitoring payload. To install, attach the puck to the mounting points in the payload section and mate the cable to the payload connector on the tail section endcap.
+
 ## Equipment Requirements
+
 The components required to operate and maintain the UUV are listed in Appendix “Topside Equipment” on page 83. 
 <xref>
+
 ## Personnel Requirements
+
 The Sandshark is designed to be run by a single operator when launched from shore. Boat-based operations require a second operator for safety. 
+
 ## Maintenance Requirements
+
 The maintenance requirements for the Sandshark system include:
 * Visual inspection of vehicle components and subsystems for fit, assembly, and external damage. Regularly scheduled diagnostic tests to ensure the vehicle’s functionality.
  * Replacing and repairing missing, consumed, or damaged items.
+
 ## Preventive Maintenance
+
 Preventive maintenance (PM) occurs at regular intervals, including during each of the operations phases (such as pre-dive and post-dive). PM is performed either afloat or ashore.
+
 ## Corrective Maintenance
+
 Corrective maintenance (CM) is performed on an as-needed basis. The need for corrective maintenance is established during PM. For instance, a failed diagnostic check on a fin during pre-dive PM would require replacing the fin. CM is performed either afloat or ashore.
+
 ## Format of Maintenance Procedures
+
 The table below describes the type of information found in the preventative and corrective maintenance procedures. 
-|---------------------------|
-|Maintenance Procedure Structure | 
+
+**Table: Maintenance Procedure Structure** 
+
 |Heading |Description |
-|-----------------------------|
-|Procedure Type	|A short two- or three-word phrase that indicates a preventative, corrective, or assembly procedure. Maintenance procedures always start on a new page. |
-|Procedure Name	|The name of the maintenance procedure described (e.g., “Replacing the Dropweight”).|
-|Tools and Equipment Required	 |A list of tools and equipment required to perform the maintenance procedure. |
-|Background Information |Any important information that helps you perform the procedure. Sometimes this is an important note or basic information about the component on which you are about to perform maintenance. |
-|Description of Work|Step-by-step procedure explaining how to perform the required task. |
-|---------------------------------------|
+|--- | --- |
+| Procedure Type	| A short two- or three-word phrase that indicates a preventative, corrective, or assembly procedure. Maintenance procedures always start on a new page. |
+| Procedure Name	| The name of the maintenance procedure described (e.g., “Replacing the Dropweight”). |
+| Tools and Equipment Required	 | A list of tools and equipment required to perform the maintenance procedure. |
+| Background Information | Any important information that helps you perform the procedure. Sometimes this is an important note or basic information about the component on which you are about to perform maintenance.  |
+| Description of Work | Step-by-step procedure explaining how to perform the required task.  |
+
 Only qualified UUV maintenance personnel should perform these procedures. A trainee under the direct supervision of a fully qualified, Bluefin trained UUV operator or technician can perform these procedures for qualification and training. If you have questions about maintenance, contact Bluefin Technical Support.
 
 # UUV Operations
