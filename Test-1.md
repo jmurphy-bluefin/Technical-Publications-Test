@@ -51,9 +51,9 @@ This section lists the manuals Bluefin provides for the UUV system. Bluefin reco
 | Sandshark Dive Log | Technical-Publications-Test/Images/Sandshark_Dive_Log.jpg |
 | Sandshark Post-Dive Checklist | Technical-Publications-Test/Images/Sandshark_Post-Dive_Checklist.jpg |
 | Sandshark Mobilization Checklist | Technical-Publications-Test/Images/Sandshark_Mobilization_Checklist.jpg |
-| qgroundcontrol User Guide: | http://qgroundcontrol.org/ |
-| ROS User Guide: | http://wiki.ros.org |
-| ROS Cheat Sheet: | http://services.informatik.hs-mannheim.de/~ihme/robotik_2014ws/01_ROScheatsheet.pdf |
+| qgroundcontrol User Guide | http://qgroundcontrol.org/ |
+| ROS User Guide | http://wiki.ros.org |
+| ROS Cheat Sheet | http://services.informatik.hs-mannheim.de/~ihme/robotik_2014ws/01_ROScheatsheet.pdf |
 | A Gentle Introduction to ROS: | https://cse.sc.edu/~jokane/agitr/ |
 | Commercial Off The Shelf (COTS) Manuals | Contact Bluefin |
 | Material Safety Data Sheets (MSDS) Package |  |
@@ -74,10 +74,10 @@ Bluefin has provided this manual to assist you in operating and maintaining the 
 
 ## Glossary
 
-*Shall* is used only when application of a procedure is mandatory.
-*Should* is used only when application of a procedure is recommended.
-*May* and *need not* are used only when application of a procedure is discretionary.
-*Will* is used only to refer to the future, never to indicate any degree of requirement for application of procedure.
+* *Shall* is used only when application of a procedure is mandatory.
+* *Should* is used only when application of a procedure is recommended.
+* *May* and *need not* are used only when application of a procedure is discretionary.
+* *Will* is used only to refer to the future, never to indicate any degree of requirement for application of procedure.
 
 ### Abbreviations and Product Specific Terms
 
@@ -103,11 +103,12 @@ The warnings, cautions, and notes contained in this manual are defined as follow
 
 **Warning**
 
-<image warning>	**Identifies an operating procedure, practice, condition or statement which, if not strictly observed, could result in injury or death.**
+![Warning](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)	**WARNING: Identifies an operating procedure, practice, condition or statement which, if not strictly observed, could result in injury or death.** 
 
 **Caution**
 
-<image caution>	**Identifies an operating or maintenance procedure, practice, condition, or statement which, if not strictly observed, could result in equipment damage or destruction, loss of mission effectiveness, long-term health hazards, or environmental damage.**
+![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
+ **CAUTION: Identifies an operating or maintenance procedure, practice, condition, or statement which, if not strictly observed, could result in equipment damage or destruction, loss of mission effectiveness, long-term health hazards, or environmental damage.** 
 
 **Note**
 
@@ -117,81 +118,96 @@ The warnings, cautions, and notes contained in this manual are defined as follow
 
 ###General Warnings
 
-<image warning>	**Procedures in this guide may require handling hazardous materials. Personnel shall become familiar with hazards and comply with the guidance in the applicable material safety data sheets (MSDSs).**
+![Warning](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)	**WARNING: Procedures in this guide may require handling hazardous materials. Personnel shall become familiar with hazards and comply with the guidance in the applicable material safety data sheets (MSDSs).**
 
-<image warning>	**Do not put fingers between the propeller blades. Always use a stick or probe to move propeller blades.**
+![Warning](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)	**WARNING: Do not put fingers between the propeller blades. Always use a stick or probe to move propeller blades.**
 
-<image warning>	**When opening or closing UUV shipping container latches, always make sure that the latches are flush with the side of the shipping containers. Latches that protrude from the shipping container may cause injuries.**
+![Warning](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)	**WARNING: When opening or closing UUV shipping container latches, always make sure that the latches are flush with the side of the shipping containers. Latches that protrude from the shipping container may cause injuries.**
 
 ### Battery Warnings
 
-<image warning>	**Before operating an UUV Battery, operators must read all warnings provided in this manual.
-Batteries are defined as hazardous materials for the purpose of shipping and cannot be shipped with the rest of the system. Remove the batteries and ship separately. Only personnel certified in shipping hazardous materials are authorized to pack and ship batteries. Non-certified personnel may repack the batteries in the original shipping box for return to Bluefin Robotics.
+![Warning](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)	**WARNING: Before operating an UUV Battery, operators must read all warnings provided in this manual.**
 
-These conditions should be avoided:
-1. Do not expose the lithium polymer cell material inside the battery directly to water.
-2. Do not attempt to overcharge or overdischarge the battery.
-3. Do not expose the battery to an ambient temperature of more than 55°C (130°F).
-4. Do not attempt to charge the battery when the ambient temperature is less than 0°C (32°F) or greater than 45°C (113°F).
+**Batteries are defined as hazardous materials for the purpose of shipping and cannot be shipped with the rest of the system. Remove the batteries and ship separately. Only personnel certified in shipping hazardous materials are authorized to pack and ship batteries. Non-certified personnel may repack the batteries in the original shipping box for return to Bluefin Robotics.**
 
-The conditions listed above could cause a condition where the battery cells permanently lose capacity or the cells exceed their safe operating temperature and become a fire hazard.
+**These conditions should be avoided:**
 
-Shipboard operations require the local verification of fire fighting capabilities equivalent to or better than the following:
-* Sprinkler protected space with a minimum of seven (7) gallons per minute flow rate
-or
-* A standard 1.5 inch shipboard firehose.
-or
-* Lith-X or similar smothering agent including a Class D fire extinguisher with copper based extinguishing media.
+1. **Do not expose the lithium polymer cell material inside the battery directly to water.**
 
-In the event of fire where lithium ion batteries are present, call 911 or local emergency services and flood the area with water where it is safe to do so. Virtually all fires involving lithium ion batteries can be controlled with water. When water is used, however, hydrogen gas may be released, which can form an explosive mixture with air, so ensure water is only used in well ventilated areas. Where water is not available, LITH-X or Class D copper powder fire extinguishers, sand, dry ground dolomite or soda ash may also be used as smothering agents.
+2. **Do not attempt to overcharge or overdischarge the battery.**
 
-Fire fighters should wear self-contained breathing apparatus.
+3. **Do not expose the battery to an ambient temperature of more than 55°C (130°F).**
 
-Burning lithium polymer batteries can produce toxic fumes including HF, oxides of carbon, aluminum, lithium, copper, and cobalt. Volatile phosphorus pentaflouride may form at a temperature above 110°C (230°F).**
+4. **Do not attempt to charge the battery when the ambient temperature is less than 0°C (32°F) or greater than 45°C (113°F).**
 
-<image warning>	**Do not cut into, puncture, drop, or damage the battery.
+**The conditions listed above could cause a condition where the battery cells permanently lose capacity or the cells exceed their safe operating temperature and become a fire hazard.**
 
-Do not attempt to measure the battery current by directly connecting a meter between the positive and negative terminals. This will cause high current to flow and the internal fuse to blow, potentially resulting in damage to the battery’s electronics.
+**Shipboard operations require the local verification of fire fighting capabilities equivalent to or better than the following:**
+* **Sprinkler protected space with a minimum of seven (7) gallons per minute flow rate**
 
-Do not purposely short the battery terminals.
+**or**
 
-NEVER force any probe, wire, or other instrument or hardware in to the battery connectors.**
+* **A standard 1.5 inch shipboard firehose.**
+ 
+**or**
 
-<image warning>	**Batteries are defined as hazardous materials for the purpose of shipping and cannot be shipped with the rest of the system. Remove them and ship them separately in the provided packaging. 
+* **Lith-X or similar smothering agent including a Class D fire extinguisher with copper based extinguishing media.**
 
-Only personnel certified in the shipping of hazardous materials are authorized to pack and ship the batteries to locations other than Bluefin Robotics. Non-certified personnel may pack the batteries in their original shipping box and ship them back to Bluefin Robotics.**
+**In the event of fire where lithium ion batteries are present, call 911 or local emergency services and flood the area with water where it is safe to do so. Virtually all fires involving lithium ion batteries can be controlled with water. When water is used, however, hydrogen gas may be released, which can form an explosive mixture with air, so ensure water is only used in well ventilated areas. Where water is not available, LITH-X or Class D copper powder fire extinguishers, sand, dry ground dolomite or soda ash may also be used as smothering agents.**
+
+**Fire fighters should wear self-contained breathing apparatus.**
+
+**Burning lithium polymer batteries can produce toxic fumes including HF, oxides of carbon, aluminum, lithium, copper, and cobalt. Volatile phosphorus pentaflouride may form at a temperature above 110°C (230°F).**
+
+![Warning](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)	**WARNING: Do not cut into, puncture, drop, or damage the battery.**
+
+**Do not attempt to measure the battery current by directly connecting a meter between the positive and negative terminals. This will cause high current to flow and the internal fuse to blow, potentially resulting in damage to the battery’s electronics.**
+
+**Do not purposely short the battery terminals.**
+
+**NEVER force any probe, wire, or other instrument or hardware in to the battery connectors.**
+
+![Warning](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)	**WARNING: Batteries are defined as hazardous materials for the purpose of shipping and cannot be shipped with the rest of the system. Remove them and ship them separately in the provided packaging. **
+
+**Only personnel certified in the shipping of hazardous materials are authorized to pack and ship the batteries to locations other than Bluefin Robotics. Non-certified personnel may pack the batteries in their original shipping box and ship them back to Bluefin Robotics.**
 
 ## Cautions
 
 ### General Cautions
 
-<image caution>	**The tailcone is designed to operate in water. Do not allow the tailcone to run in air longer than five minutes, because it may overheat.**
+![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
+ **CAUTION: The tailcone is designed to operate in water. Do not allow the tailcone to run in air longer than five minutes, because it may overheat.**
 
-<image caution>	**Do not power wash the UUV or its components as this may cause damage to the UUV or its components.**
+![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
+ **CAUTION: Do not power wash the UUV or its components as this may cause damage to the UUV or its components.**
 
-<image caution>	**Do not use an O-ring that shows any sign of damage or wear. 
+![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
+ **CAUTION: Do not use an O-ring that shows any sign of damage or wear. **
 
-Do not remove a connector by pulling on the cable as this may damage the integrity of the cable.
-Cables and connectors that are pinched, compressed, or otherwise under strain in the stowed position may lose their watertight integrity.
+**Do not remove a connector by pulling on the cable as this may damage the integrity of the cable.
+Cables and connectors that are pinched, compressed, or otherwise under strain in the stowed position may lose their watertight integrity.**
 
-Do not allow DC-4 Silicone Grease lubricant to come into contact with the connecting faces, pins, or pin sockets of the connectors as this may compromise the electrical connection.
+**Do not allow DC-4 Silicone Grease lubricant to come into contact with the connecting faces, pins, or pin sockets of the connectors as this may compromise the electrical connection.**
 
-Do not bend wet-mateable connectors back and forth to work the connectors together. Bending or squeezing the connectors causes the pins to bend and can damage the pins and connectors.**
+**Do not bend wet-mateable connectors back and forth to work the connectors together. Bending or squeezing the connectors causes the pins to bend and can damage the pins and connectors.**
 
 ### Battery Cautions
 
-<image caution>	**Before using a Bluefin Battery, vehicle operators must read all warnings provided in this manual.
-Ensure that the vehicle is powered OFF before removing the battery from the vehicle.
+![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
+ **CAUTION: Before using a Bluefin Battery, vehicle operators must read all warnings provided in this manual.
+Ensure that the vehicle is powered OFF before removing the battery from the vehicle.**
 
-Batteries should be stored in a cool place (ambient temperature less than 40°C (75°F)) away from direct sunlight. **
+**Batteries should be stored in a cool place (ambient temperature less than 40°C (75°F)) away from direct sunlight. **
 
-<image caution>	**Use care not to drop batteries when handling. If a battery is damaged, contact Bluefin before using, moving, or shipping it.
+![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
+ **CAUTION: Use care not to drop batteries when handling. If a battery is damaged, contact Bluefin before using, moving, or shipping it.**
 
-Do not allow water to enter the battery. 
+**Do not allow water to enter the battery. **
 
-Do not place equipment or materials on the battery lid or connectors.**
+**Do not place equipment or materials on the battery lid or connectors.**
 
-<image caution>	**Do not charge the batteries in ambient temperatures over 45°C (113°F). Over temperature conditions will terminate the charging cycle. Over temperature conditions may occur when charging the battery in a elevated ambient temperature environment.**
+![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
+ **CAUTION: Do not charge the batteries in ambient temperatures over 45°C (113°F). Over temperature conditions will terminate the charging cycle. Over temperature conditions may occur when charging the battery in a elevated ambient temperature environment.**
 
 # Introduction
 
@@ -465,7 +481,8 @@ The following steps must be performed once for each vehicle:
 
 ### Shore Cable Usage
 
-<image caution>	**Always turn off the vehicle before connecting the shore cable.**
+![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
+ **CAUTION: Always turn off the vehicle before connecting the shore cable.**
 
 The shore cable connects the vehicle and the operator laptop and is used for faster transfer of data and large files. The vehicle end connects to the payload connector on the tail section endcap. The laptop end connects to the laptop’s ethernet port.
 
@@ -477,7 +494,8 @@ The vehicle’s wired IP address is set to 10.0.7.65.
 
 Be mindful of heat, especially on a hot day. When running on deck, power off unnecessary payloads. Do not run the tailcone in air for longer than 5 minutes.
 
-<image caution>	**If the vehicle overheats, pour water over the tailcone section aft of the antenna until it cools.
+![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
+ **CAUTION: If the vehicle overheats, pour water over the tailcone section aft of the antenna until it cools.
 If extended operation in air is required, a hose can be used to help limit tailcone temperatures.**
 
 ### Operating in Water
@@ -515,7 +533,8 @@ User-defined payload modules should fit inside a 4-7/8” OD shell, weigh less t
 
 ###Turning vehicle on
 
-<image warning> 	**Verify that all hands are clear of the propeller before turning on the vehicle.**
+![Warning](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)	**WARNING: Verify that all hands are clear of the propeller before turning on the vehicle.**
+
 To turn on the vehicle, pass one end of the neodymium magnet over the magnetic switch in the aft upper corner of the antenna. If the green LED does not flash, pass the other end of the neodymium magnet over the switch. The green LED flashes during power up and turns solid when the vehicle is ready to operate.
 
 ### Planning a mission
@@ -528,9 +547,10 @@ When the mission plan is complete, click “Set” in the lower right corner to 
 
 Click “Refresh” in the lower right corner and check the “Onboard Waypoints” list. “Onboard Waypoints” are the waypoints loaded in the vehicle’s memory. If they do not match the mission plan, click “Refresh” until they do.
 
-<image caution>	**qgroundcontrol does not know the vehicle’s operational limits. When the vehicle reaches its operational limits it aborts and surfaces.
+![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
+ **CAUTION: qgroundcontrol does not know the vehicle’s operational limits. When the vehicle reaches its operational limits it aborts and surfaces.**
 
-The vehicle must surface for GPS updates at regular intervals. This distance is configurable, but if updates are set too far apart the vehicle may travel outside the expected operations area. (Default: 90 seconds)
+**The vehicle must surface for GPS updates at regular intervals. This distance is configurable, but if updates are set too far apart the vehicle may travel outside the expected operations area. (Default: 90 seconds)
 GPS checks override the mission plan.**
 
 ### Vehicle Safety Parameters and Limits
@@ -559,7 +579,8 @@ The key limits are:
 
 ### Pre-Dive Checklist
 
-<image caution>	**Always pick up the vehicle by the handle or by gripping the hull. The tailcone, antenna, and fins cannot support the weight of the vehicle.**
+![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
+ **CAUTION: Always pick up the vehicle by the handle or by gripping the hull. The tailcone, antenna, and fins cannot support the weight of the vehicle.**
 
 The pre-dive checklist is used to check the vehicle status and readiness for a mission. A blank pre-dive checklist is located in “UUV Checklists” on page 71.
 <xref>
@@ -584,8 +605,9 @@ First, pass the pre-dive checklist and verify that the mission has been uploaded
 
 WiFi does not work under water. The vehicle can only be monitored while it is at the surface. The vehicle surfaces regularly (at a configurable interval, default 90 seconds) to acquire a GPS location. If it is within wifi range when it surfaces, then the vehicle status will update in qgroundcontrol and commands can be transmitted to it.
 
-<image caution> 	**WiFi does not work underwater.
-GPS checks override the mission plan.**
+![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
+ **CAUTION: WiFi does not work underwater. **
+ **GPS checks override the mission plan.**
 
 ### How to end a mission
 
@@ -598,7 +620,8 @@ To abort a mission, issue an “ASCEND TO SURFACE” command in qgroundcontrol w
 
 If the propeller does not start moving when it is expected to, insert a stick in the propeller and push it clockwise until it turns on its own. Never use a body part to rotate the propeller.
 
-<image caution>	**Do not touch the propeller with any body part when the vehicle is powered on.**
+![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
+ **CAUTION: Do not touch the propeller with any body part when the vehicle is powered on.**
 
 ### Vehicle Location and Recovery
 
@@ -613,7 +636,8 @@ Bluefin strongly recommends installing an emergency locator device in the payloa
 
 If no emergency locator device is installed, using binoculars and a panel unidirectional wifi antenna can increase the search and communications range.
 
-<image caution>	**Always pick up the vehicle by the handle or by gripping the hull. The tailcone, antenna, and fins cannot support the weight of the vehicle.**
+![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
+ **CAUTION: Always pick up the vehicle by the handle or by gripping the hull. The tailcone, antenna, and fins cannot support the weight of the vehicle.**
 
 ## Post-mission Activities
 
@@ -662,7 +686,8 @@ The fresh water rinse cleans the exterior of the vehicle after each dive.
 
 ### Description of Work
 
-<image caution>	**Do not power wash the AUV or its components as this may cause damage to the AUV or its components.**
+![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
+ **CAUTION: Do not power wash the AUV or its components as this may cause damage to the AUV or its components.**
 
 *Note: Do not let the fresh water hose run when not in use. Use the minimum necessary for the task. Always secure the hose when it is not being used.*
 
@@ -890,7 +915,8 @@ The ways in which the UUV can be located are discussed in the sections that foll
 
 If the UUV’s wifi or emergency locators are still powered, even if status updates are not functioning, appropriate topside equipment can be used to obtain direction and position information from these devices. This procedure will describe how to use the search boat’s position and range information to locate the UUV.
 
-<image caution>	**If contact is made with a missing vehicle, immediately issue a LAND command from qgroundcontrol to bring it to the surface, otherwise it might drive out of wifi range. Note that it could take several minutes for the vehicle to reach the surface depending on the vehicle depth at time of LAND command. The vehicle rises approximately one foot/sec. Immediately note the GPS position where contact is made in case the search boat moves or loses contact and needs to backtrack.**
+![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
+ **CAUTION: If contact is made with a missing vehicle, immediately issue a LAND command from qgroundcontrol to bring it to the surface, otherwise it might drive out of wifi range. Note that it could take several minutes for the vehicle to reach the surface depending on the vehicle depth at time of LAND command. The vehicle rises approximately one foot/sec. Immediately note the GPS position where contact is made in case the search boat moves or loses contact and needs to backtrack.**
 
 To locate the UUV using the Search Boat Position and Range: 
 
@@ -1221,7 +1247,7 @@ This task must be performed on a workbench because the woodruff key falls out wh
 <image>
 **Figure:  Woodruff Key**
 
-5. Align the notch in the propeller’s center hole with the woodruff key and slide it onto the propeller shaft and over the woodruff key. It will h old the woodruff key in place.
+5. Align the notch in the propeller’s center hole with the woodruff key and slide it onto the propeller shaft and over the woodruff key. It will hold the woodruff key in place.
 
 6. Using the retaining ring pliers, open a retaining ring and insert it on the shaft to hold the propeller in place. Verify that it is fully seated in the groove on the shaft and closes flat when the pliers are removed. Do not use a bent retaining ring.
 
@@ -1310,11 +1336,12 @@ This chapter contains only those intermediate level maintenance procedures which
 
 More complex, or depot level corrective maintenance requires specialized equipment and extensive disassembly of vehicle components. Depot level maintenance is carried out by Bluefin Robotics, either on site or at Bluefin’s facilities.
 
-<image caution>	**Never unseal the pressure vessels outdoors.
+![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
+ **CAUTION: Never unseal the pressure vessels outdoors.**
 
-All procedures in the Repair chapter are intermediate level maintenance. They can be performed in a properly equiped workshop or ISO van.
+**All procedures in the Repair chapter are intermediate level maintenance. They can be performed in a properly equiped workshop or ISO van.**
 
-Use only Bluefin-approved parts and procedures. Using unapproved parts and procedures will void the vehicle warranty.**
+**Use only Bluefin-approved parts and procedures. Using unapproved parts and procedures will void the vehicle warranty.**
 
 ## Roll and CB-CG Separation
 
@@ -1389,7 +1416,8 @@ This appendix contains information on the external connectors to the pressure ve
 <image>
 **Figure: Pressure Vessel Endcap**
 
-<image caution>	**During underwater operation, the external connectors must be mated to a cable or dummy cap.**
+![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
+ **CAUTION: During underwater operation, the external connectors must be mated to a cable or dummy cap.**
 
 ## Charge Connector
 
@@ -1436,7 +1464,8 @@ The charging brick is a standard laptop charging brick with a 4-pin connector to
 
 ## Shore Cable
 
-<image caution>	Always turn off the vehicle before connecting the shore cable.
+![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
+ **CAUTION: Always turn off the vehicle before connecting the shore cable.**
 
 The shore cable connects the vehicle and the operator laptop and is used for faster transfer of data and large files. The vehicle end connects to the 8-pin payload connector on the tail section endcap. The laptop end connects to the laptop’s ethernet port.
 
