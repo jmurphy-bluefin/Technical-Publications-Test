@@ -274,12 +274,9 @@ The antenna (part number: 000-016-391) contains the magnetic ON/OFF switch, comm
 |LED | Meaning |
 |--- | ---|
 | Blue | Vehicle powered (steady) |
-| Red | Test failed (steady) |
-| | Mission aborting (flashing) |
-| | Misson aborted (steady) |
+| Red | * Test failed (steady) * Mission aborting (flashing) * Misson aborted (steady) |
 | Amber	 | Reserved for user-defined payload |
-|Green	| Ready to run (steady) |
-| | Running a mission (flashing) |
+|Green	| * Ready to run (steady) * Running a mission (flashing) |
 
 The visible and infrared strobes are configurable to be:
 * Always on 
@@ -330,7 +327,7 @@ The Sandshark is designed to be run by a single operator when launched from shor
 
 The maintenance requirements for the Sandshark system include:
 * Visual inspection of vehicle components and subsystems for fit, assembly, and external damage. Regularly scheduled diagnostic tests to ensure the vehicle’s functionality.
- * Replacing and repairing missing, consumed, or damaged items.
+* Replacing and repairing missing, consumed, or damaged items.
 
 ## Preventive Maintenance
 
@@ -391,9 +388,9 @@ The following configuration steps set some IP addresses to static.
 
 2. Connect the laptop to the wireless network:
 
-* Network SSID: adapt
+  * Network SSID: adapt
 
-* Network Password: adapt
+  * Network Password: adapt
 
 3. On the operator laptop, set a static IP address of 192.168.1.200 for the adapt network wireless connection, with a 255.255.255.0 netmask.
 
@@ -404,13 +401,13 @@ ssh root@192.168.1.101
 
 6. Using vi, open:
 
-* /data/app/bluefin/opt/ros_xc/share/sandshark_common/launch/catkin_all.launch
+  * /data/app/bluefin/opt/ros_xc/share/sandshark_common/launch/catkin_all.launch
 
 7. Set the following parameters:
 
-* sendIPAddress = 192.168.2.200
+  * sendIPAddress = 192.168.2.200
 
-* secondarySendIPAddress = 10.0.7.200
+  * secondarySendIPAddress = 10.0.7.200
 
 8. Restart the vehicle using the magnet.
 
@@ -424,13 +421,13 @@ http://qgroundcontrol.org/
 
 Use the following values with the installation instructions:
 
-gssysID = 254
+* gssysID = 254
 
-name = adapt
+* name = adapt
 
-port = 14550
+* port = 14550
 
-targethost = 127.0.0.1:14555
+* targethost = 127.0.0.1:14555
 
 ### Accelerometer Configuration
 
@@ -452,15 +449,15 @@ The following steps must be performed once for each vehicle:
 
 7. A log window pops up. Follow the instructions, noting the following.
 
-* Turn to the left side: the antenna must be parallel to the ground.
+  * Turn to the left side: the antenna must be parallel to the ground.
 
-* Turn upside-down: the antenna must be perpendicular to the ground.
+  * Turn upside-down: the antenna must be perpendicular to the ground.
 
-* Turn to the right side: the antenna must be parallel to the ground.
+  * Turn to the right side: the antenna must be parallel to the ground.
 
-* Place on nose: remove hands from the vehicle before pressing accel
+  * Place on nose: remove hands from the vehicle before pressing accel
 
-* Place on tail: remove hands from the vehicle before pressing accel
+  * Place on tail: remove hands from the vehicle before pressing accel
 
 ### Magnetometer Calibration
 
@@ -525,12 +522,12 @@ The vehicle must be ballasted and trimmed correctly to provide a stable base for
 
 User-defined payload modules should fit inside a 4-7/8” OD shell, weigh less than 7.5 lb (3.3 kg), and be shorter than 23 inches (.58 meters) including the nose or shorter than 19 inches (.48 meters) if using the Bluefin nose. 
 
-**Figure: Properties of UUV with Empty Payload**
-|Property	|Value|
+**Table: Properties of UUV with Empty Payload**
+| Property	| Value |
 |--- | ---|
-|Mass	|12.5 lb (5.7 kg)|
-|Length	|40 inches (1 meter)|
-|Diameter	| 4-7/8” (125 mm)|
+| Mass	| 12.5 lb (5.7 kg) |
+| Length	| 40 inches (1 meter) |
+| Diameter	| 4-7/8” (125 mm) |
 
 ###Turning vehicle on
 
@@ -774,7 +771,7 @@ For ground shipment, the battery can be shipped by non-Hazmat personnel with the
 
 <image>
 
-**Figure: Battery Cables**
+  **Figure: Battery Cables**
 
 6. Disconnect the 3-pin mini-fit-jr connector from the same socket by pressing the clip and pulling straight out.
 
@@ -790,7 +787,7 @@ For ground shipment, the battery can be shipped by non-Hazmat personnel with the
 11. Prepare the shipping box by filling the excess space with honeycomb fiberboard inserts.
 
 <image>
-**Figure: Prepared Shipping Box**
+  **Figure: Prepared Shipping Box**
 
 12. Insert the battery in a 3 mil thick plastic bag and roll the top closed.
 
@@ -807,26 +804,26 @@ For ground shipment, the battery can be shipped by non-Hazmat personnel with the
 18. Ensure that the shipping box is labeled with the following labels on 2 opposite sides (4  labels per side):
 
 <image>
-**Figure: Class 9 Label (black and white)**
+  **Figure: Class 9 Label (black and white)**
 
 <image>
-**Figure: This Side Up**
+  **Figure: This Side Up**
 
 <image>
-**Figure: UN 3480 Lithium Battery**
+  **Figure: UN 3480 Lithium Battery**
 
 <image>
-**Figure: 24 Hour Emergency Contact Information Label**
+  **Figure: 24 Hour Emergency Contact Information Label**
 
 19. If the person packing the battery has a Hazmat certificate, apply the following label on 2 opposite sides:
 
 <image>
-**Figure: Cargo Aircraft Only Label (orange)**
+  **Figure: Cargo Aircraft Only Label (orange)**
 
 20. If the person packing the battery does not have a Hazmat certificate, apply the following label on 2 opposite sides:
 
 <image>
-**Figure: LITHIUM BATTERIES - FORBIDDEN FOR TRANSPORT ABOARD AIRCRAFT AND VESSEL**
+  **Figure: LITHIUM BATTERIES - FORBIDDEN FOR TRANSPORT ABOARD AIRCRAFT AND VESSEL**
 
 21. Write “235 Wh” on the sides with the labels.
 
@@ -856,7 +853,7 @@ aft. The large circuit board on the chassis faces aft.
 7. Gently press the 3 pin mini-fit-jr connector into the left side of the 8-pin mini-fit-jr socket on the battery circuit board until it is fully seated and the clip clicks.
 
 <image>
-**Figure: Battery Cables**
+  **Figure: Battery Cables**
 
 8. Gently press the 3-pin C-grid connector into the right side of the 8-pin mini-fit-jr socket.
 
@@ -928,7 +925,7 @@ To locate the UUV using the Search Boat Position and Range:
 
 3. Obtain the first range reading from the topside communications equipment.
 
-*Note: Be aware that the vehicle may be on the bottom and therefore may show ranges no closer than the local water depth.*
+  *Note: Be aware that the vehicle may be on the bottom and therefore may show ranges no closer than the local water depth.*
 
 4. Make an annotation on the chart of the search boat’s location and draw a circle with a radius equaling the range value around the search boat’s location.
 
@@ -937,7 +934,7 @@ To locate the UUV using the Search Boat Position and Range:
 6.  Turn the search boat 90 degrees and drive to a third location and take a new range reading. Make a new annotation on the chart. There should now be three intersecting circles on the chart. The intersection of the three circles indicates the approximate position of the UUV.  (See Figure below.) 
 
 <image>
-**Figure: Approximate Location of UUV at Intersection of Three Circles**
+  **Figure: Approximate Location of UUV at Intersection of Three Circles**
 
 7. Place a new annotation at the approximate location of the UUV, and annotate it with something meaningful like “Location 1”. This marker will serve as a record of the first approximated location.
 
@@ -1088,11 +1085,11 @@ This procedure applies to all sections and sub-sections attached with ortman key
 1. If a section has o-rings, verify that they are intact, in place, and lightly lubricated with DC-4. The following o-rings 
 are in the tail section:
 
-* Fin housing aft: 2-044
+  * Fin housing aft: 2-044
 
-* Fin housing fore: 2-046
+  * Fin housing fore: 2-046
 
-* Endcap aft: 2-046
+  * Endcap aft: 2-046
 
 2. Slide the sections together so the ortman grooves align. Verify that the o-rings are not pinched or torn.
 
@@ -1235,10 +1232,10 @@ This task must be performed on a workbench because the woodruff key falls out wh
 1. Using retaining ring pliers, open and remove the retaining ring from the propeller shaft.
 
 <image>
-**Figure: Retaining Ring**
+  **Figure: Retaining Ring**
 
 <image>
-**Figure: Retaining Ring on Propeller Shaft**
+  **Figure: Retaining Ring on Propeller Shaft**
 
 2. Slide the propeller off the shaft. The woodruff key will fall out.
 
@@ -1247,7 +1244,7 @@ This task must be performed on a workbench because the woodruff key falls out wh
 4. Insert the woodruff key in the slot on the shaft, curved side in. Hold in place with a finger.
 
 <image>
-**Figure:  Woodruff Key**
+  **Figure:  Woodruff Key**
 
 5. Align the notch in the propeller’s center hole with the woodruff key and slide it onto the propeller shaft and over the woodruff key. It will hold the woodruff key in place.
 
@@ -1279,7 +1276,7 @@ The duct slides onto the propeller shaft and is secured to the fairing with 4x 4
 2. Unscrew the 4 screws on the duct with a t-handle hex wrench.
 
 <image> 
-**Figure: Location of Screws on Duct**
+  **Figure: Location of Screws on Duct**
 
 3. Slide the duct off the propeller shaft.
 
@@ -1317,7 +1314,7 @@ The 4 articulating fins are removed and inserted without tools. The two dowels o
 4. Align the replacement fin so the dowels on the pin match the notch on the connector. Press in gently until the fin is  fully seated.
 
 <image>
-**Figure: Dowels on Fin Pin and Connector Indent**
+  **Figure: Dowels on Fin Pin and Connector Indent**
 
 5. Repeat for each fin.
 
@@ -1382,19 +1379,20 @@ If an abort occurs during a mission, the thruster will stop spinning and the veh
 The trigger value for each abort is configurable via the Parameters menu in QGroundControl. Bluefin recommends not changing these values unless absolutely necessary and after careful deliberation, as the defaults have been picked to prevent harm to the vehicle.
 
 **Table: Aborts, Causes, and Troubleshooting**
-|Abort	|Typical Causes	|Troubleshooting / Suggestions|
+
+| Abort	| Typical Causes	| Troubleshooting / Suggestions |
 |--- | --- | --- |
-|Over-temperature Abort	|Ambient pressure vessel temperature has risen too high	|This abort triggers if the ambient temperature inside the pressure vessel has exceeded 40°C. This typically only occurs if the vehicle is operated in air for an extended length of time. To cool the pressure vessel, either shut the vehicle down for around ten minutes, or place the vehicle into water|
-|High Pressure Abort	|Ambient pressure inside the pressure vessel has risen too high, indicating a leak	|Bluefin typically operates its vehicles with a vacuum in the pressure vessel. The recommended vacuum for this system is an absolute pressure of 85 kPa.  The high pressure abort will occur if a pressure of greater than 90kPa is detected within the pressure vessel, as this indicates that a leak is present.  If Bluefin has stated that your vehicle should be run at with a vacuum, set the Low Pressure abort to 70 kPa so that it does not trigger.
+| Over-temperature Abort	| Ambient pressure vessel temperature has risen too high	| This abort triggers if the ambient temperature inside the pressure vessel has exceeded 40°C. This typically only occurs if the vehicle is operated in air for an extended length of time. To cool the pressure vessel, either shut the vehicle down for around ten minutes, or place the vehicle into water |
+| High Pressure Abort	| Ambient pressure inside the pressure vessel has risen too high, indicating a leak	| Bluefin typically operates its vehicles with a vacuum in the pressure vessel. The recommended vacuum for this system is an absolute pressure of 85 kPa.  The high pressure abort will occur if a pressure of greater than 90kPa is detected within the pressure vessel, as this indicates that a leak is present.  If Bluefin has stated that your vehicle should be run at with a vacuum, set the Low Pressure abort to 70 kPa so that it does not trigger.
 When the high pressure abort occurs, immediately remove the vehicle from the water and check for water intrusion and leaks.  If no obvious issues are detected, use a vacuum pump to decrease the pressure in the pressure vessel until the /environmental/environmental pressure reading is at ~85 kPa.  Ensure that the vehicle can hold pressure for an extended period of time before continuing operations|
-|Low Pressure Abort	|Ambient pressure inside the pressure vessel has dropped too low, indicating a leak	|If, due to a known sealing issue with your vehicle, Bluefin has recommended that you operate with positive pressure in the vehicle's pressure vessel rather than a vacuum, this abort will apply instead of the High Pressure one.  In this scenario, the High Pressure abort should be set to 120 kPa so that it does not trigger.  The low pressure abort occurs when the vehicle senses a lower than expected internal pressure, indicating that some air has leaked out of the pressure vessel.
-In the event of a low pressure abort, immediately remove the vehicle from the water and check for leaks or water intrusion.  If there are no obvious physical issues with the pressure vessel, use a pump to increase the pressure inside the pressure vessel until the /environmental/environmental pressure reading is at ~108 kPa.  Ensure that the pressure is not dropping at over 1kPa / 10 hours before continuing operations|
-|Low Altitude Abort	|Water depth different than expected, operator error when planning the mission	|This abort triggers when the vehicle senses that it is at an altitude lower than 1 meter in order to prevent accidental collisions with the sea floor.  If it occurs, double check that the mission was planned correctly and that the water depth is actually as deep as the charts state.|
-|High Depth Abort	|Operator error when planning the mission	|The depth abort triggers when the vehicle reaches a depth greater than 100 meters to prevent the vehicle from exceeding its depth rating.  When the depth abort occurs, double check that the mission was planned correctly.|
-|Low Battery Abort	|The battery's percent state of charge has fallen too low to continue the mission	|When the battery percent of charge falls below 5%, the low battery abort will trigger.  When the vehicle comes to the surface, charge the battery before continuing operations|
-|Mission Length Abort	|The vehicle was physically stuck during part of the mission, operator error when planning the mission	|The mission length abort triggers when a mission has been running for an amount of time longer than this threshold is set to.  If it occurs, double check that the planned mission can actually be completed within the allotted time slot and adjust it accordingly.  Additionally, the mission data should be checked to ensure that the vehicle is not getting stuck during any point in the mission.  One example would be if a waypoint was planned with a capture radius smaller than necessary, the vehicle might have to loop around it several times before considering it as having been reached|
-|Leak Abort	|Water intrusion into the pressure vessel	|This abort occurs when the leak sensor inside of the pressure vessel has detected water intrusion.  Immediately remove the vehicle from the water and verify that no water is entering the pressure vessel before continuing operations|
-|Navigation Integrity Abort	|Sudden jerk or twist of the vehicle during a mission, loss of altimeter or depth sensor communications, detection of impossible vehicle dynamics	|Download the vehicle data and view the /navigation/navState publication throughout the mission.  This publication contains a detailed string as to why this abort occurs.  If impossible vehicle dynamics or sudden jerks or twists have occurred, ensure that the area of operations is free of anything that could hit the vehicle during its mission such as a boat or a steep slope on the sea bed.  If any sensor data was lost, power cycle the vehicle and ensure the vehicle comes up in the running state with the green LED on before running another mission|
+| Low Pressure Abort	| Ambient pressure inside the pressure vessel has dropped too low, indicating a leak	| If, due to a known sealing issue with your vehicle, Bluefin has recommended that you operate with positive pressure in the vehicle's pressure vessel rather than a vacuum, this abort will apply instead of the High Pressure one.  In this scenario, the High Pressure abort should be set to 120 kPa so that it does not trigger.  The low pressure abort occurs when the vehicle senses a lower than expected internal pressure, indicating that some air has leaked out of the pressure vessel.
+In the event of a low pressure abort, immediately remove the vehicle from the water and check for leaks or water intrusion.  If there are no obvious physical issues with the pressure vessel, use a pump to increase the pressure inside the pressure vessel until the /environmental/environmental pressure reading is at ~108 kPa.  Ensure that the pressure is not dropping at over 1kPa / 10 hours before continuing operations |
+| Low Altitude Abort	| Water depth different than expected, operator error when planning the mission	| This abort triggers when the vehicle senses that it is at an altitude lower than 1 meter in order to prevent accidental collisions with the sea floor.  If it occurs, double check that the mission was planned correctly and that the water depth is actually as deep as the charts state. |
+| High Depth Abort	| Operator error when planning the mission	| The depth abort triggers when the vehicle reaches a depth greater than 100 meters to prevent the vehicle from exceeding its depth rating.  When the depth abort occurs, double check that the mission was planned correctly. |
+| Low Battery Abort	| The battery's percent state of charge has fallen too low to continue the mission	| When the battery percent of charge falls below 5%, the low battery abort will trigger.  When the vehicle comes to the surface, charge the battery before continuing operations |
+| Mission Length Abort	| The vehicle was physically stuck during part of the mission, operator error when planning the mission	| The mission length abort triggers when a mission has been running for an amount of time longer than this threshold is set to.  If it occurs, double check that the planned mission can actually be completed within the allotted time slot and adjust it accordingly.  Additionally, the mission data should be checked to ensure that the vehicle is not getting stuck during any point in the mission.  One example would be if a waypoint was planned with a capture radius smaller than necessary, the vehicle might have to loop around it several times before considering it as having been reached |
+| Leak Abort	| Water intrusion into the pressure vessel	| This abort occurs when the leak sensor inside of the pressure vessel has detected water intrusion.  Immediately remove the vehicle from the water and verify that no water is entering the pressure vessel before continuing operations |
+| Navigation Integrity Abort	| Sudden jerk or twist of the vehicle during a mission, loss of altimeter or depth sensor communications, detection of impossible vehicle dynamics	| Download the vehicle data and view the /navigation/navState publication throughout the mission.  This publication contains a detailed string as to why this abort occurs.  If impossible vehicle dynamics or sudden jerks or twists have occurred, ensure that the area of operations is free of anything that could hit the vehicle during its mission such as a boat or a steep slope on the sea bed.  If any sensor data was lost, power cycle the vehicle and ensure the vehicle comes up in the running state with the green LED on before running another mission |
 
 
 # UUV Checklists
@@ -1502,11 +1500,10 @@ The hall switch responds to magnetic flux densities of 15mT or more. Magnets are
 The table below lists the o-rings in the spares kit.
 
 **Table: O-Ring Spares Kit** 
-|Bluefin No.	|Description	|QTY|
-|--- | --- | ---|
-|000-019-117	|O-RING, 2-044, 3.739 ID, 3.879 OD, .070 WD, BUNA-N|	
-|000-017-504	|O-RING, 2-046, (4.239ID X .070W) PER MIL-G-21569B CLASS 1, BUNA-N	|
-|--------------------|
+| Bluefin No.	| Description	| QTY |
+|--- | --- | --- |
+| 000-019-117	| O-RING, 2-044, 3.739 ID, 3.879 OD, .070 WD, BUNA-N |	
+| 000-017-504	| O-RING, 2-046, (4.239ID X .070W) PER MIL-G-21569B CLASS 1, BUNA-N	|
 
 ## Tool Kit List
 
@@ -1515,13 +1512,13 @@ The table below lists the contents of the Tool Kit.
 *Note: All hex screws involved in routine maintenance are 3-32.*
 
 **Table: Tool Kit List**
-|Supplier	|Supplier PN	|Description	|QTY|
-| --- | --- | --- |
-|McMaster-Carr	|7127A37	|SCREWDRIVER, PHILIPS BLADE	|1|
-|McMaster-Carr	|5709A52	|HEX SET, BALL END, IMPERIAL	|1|
-|	|	|Needlenose Pliers	|1|
-|	|	|Retaining Ring Pliers|*|	
-|	|	|Extension Cord	|1|
+| Supplier	| Supplier PN	| Description	| QTY |
+| --- | --- | --- | --- |
+| McMaster-Carr	| 7127A37	| SCREWDRIVER, PHILIPS BLADE	| 1 |
+| McMaster-Carr	| 5709A52	| HEX SET, BALL END, IMPERIAL	| 1 |
+|	|	| Needlenose Pliers	| 1 |
+|	|	| Retaining Ring Pliers | * | 	
+|	|	| Extension Cord	| 1 |
 *Not provided by Bluefin.
 
 ## Spares List
@@ -1529,16 +1526,16 @@ The table below lists the contents of the Tool Kit.
 The table below lists the contents of the Spares Kit.
 
 **Table: Spares Kit List** 
-|Supplier	|Supplier PN	|Description	|QTY|
+| Supplier	| Supplier PN	| Description	| QTY |
 | --- | --- | --- | --- |
-|	|	|Extra #4 hardware	| |
-|	|	|Ballast Weights	| |
-|	|	|Foam	| |
-|	|	|Ortman Keys | |	
-|	|	|Rare Earth Magnets | |	
-|	|	|Low Speed Fins	| 4|
-|	|	|High Speed Fins	|4|
-|	|	|Dummy plugs and locking rings	| |
+|	|	| Extra #4 hardware	| |
+|	|	| Ballast Weights	| |
+|	|	| Foam	| |
+|	|	| Ortman Keys | |	
+|	|	| Rare Earth Magnets | |	
+|	|	| Low Speed Fins	| 4 |
+|	|	| High Speed Fins	| 4 |
+|	|	| Dummy plugs and locking rings	| |
 
 
 ## Consumables List
@@ -1546,18 +1543,18 @@ The table below lists the contents of the Spares Kit.
 The table below lists the consumable supplies and vendor information.
 
 **Table: List of Consumables**
-|Bluefin Part Number	|Description	|CANNOT SHIP VIA AIR?|
-| --- | --- | ---|
-|000-001-461	|LUBRICANT, AQUASHIELD, 8OZ TUBE	| |
-|000-001-245	|ELECTRICAL INSULATING COMPOUND,DOW CORNING 4 | |	
-|000-007-004	|TAPE, ELECTRICAL 3/4" WD X 66'L, BLACK, SCOTCH BRAND	| |
-|	|Gorilla Tape| |	
-|000-004-732	|Scotch 23 rubber splicing tape	| |
-|000-006-280	|LUBRICANT, SILICONE, 3M, 13-1/4 OZ, AEROSOL SPRAY CAN	|CANNOT SHIP VIA AIR|
-|000-004-752	|TIE WRAP, 11", BLACK, HEAVY DUTY, PACKAGE  50 | |	
-|000-004-754	|TIE WRAP, 4", BLACK,LIGHT DUTY, PACKAGE 100	| |
-|000-004-757	|TIE WRAP, 5.5 ", BLACK, MED DUT, PACKAGE 100	| |
-|000-006-281	|DUSTER, ELECTRICAL CLEANING, 8 OZ AEROSOL SPRAY CAN	|CANNOT SHIP VIA AIR|
+| Bluefin Part Number	| Description	| CANNOT SHIP VIA AIR? |
+| --- | --- | --- |
+| 000-001-461	| LUBRICANT, AQUASHIELD, 8OZ TUBE	| |
+| 000-001-245	| ELECTRICAL INSULATING COMPOUND,DOW CORNING 4 | |	
+| 000-007-004	| TAPE, ELECTRICAL 3/4" WD X 66'L, BLACK, SCOTCH BRAND	| |
+|	| Gorilla Tape | |	
+| 000-004-732	| Scotch 23 rubber splicing tape	| |
+| 000-006-280	| LUBRICANT, SILICONE, 3M, 13-1/4 OZ, AEROSOL SPRAY CAN	| CANNOT SHIP VIA AIR |
+| 000-004-752	| TIE WRAP, 11", BLACK, HEAVY DUTY, PACKAGE  50 | |	
+| 000-004-754	| TIE WRAP, 4", BLACK,LIGHT DUTY, PACKAGE 100	| |
+| 000-004-757	| TIE WRAP, 5.5 ", BLACK, MED DUT, PACKAGE 100	| |
+| 000-006-281	| DUSTER, ELECTRICAL CLEANING, 8 OZ AEROSOL SPRAY CAN	| CANNOT SHIP VIA AIR |
 
 
 # Trim Instructions
@@ -1601,10 +1598,10 @@ Trim options:
 **Figure: Ballast Mounting Points**
 
 ** Table: Ballast Disks and Harware**
-|Part Number	|Description |
-|--- | ---|
-|000-016-747	|BALLAST WEIGHT, BRASS, 1.000 DIA, 25G|
-|	|WASHER, SPLIT LOCK, .112 NOM (#4), 316SS|
-|SCS3PL04024	|SCREW, SKT HD CAP, .112-40 UNC-2A X .75L, 316SS|
+| Part Number	| Description |
+| --- | --- |
+| 000-016-747	| BALLAST WEIGHT, BRASS, 1.000 DIA, 25G |
+|	| WASHER, SPLIT LOCK, .112 NOM (#4), 316SS |
+| SCS3PL04024	| SCREW, SKT HD CAP, .112-40 UNC-2A X .75L, 316SS |
 
 
