@@ -167,7 +167,8 @@ The warnings, cautions, and notes contained in this manual are defined as follow
 
 **NEVER force any probe, wire, or other instrument or hardware in to the battery connectors.**
 
-![Warning](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)	**WARNING: Batteries are defined as hazardous materials for the purpose of shipping and cannot be shipped with the rest of the system. Remove them and ship them separately in the provided packaging. **
+
+![Warning](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)	**WARNING: Batteries are defined as hazardous materials for the purpose of shipping and cannot be shipped with the rest of the system. Remove them and ship them separately in the provided packaging.**
 
 **Only personnel certified in the shipping of hazardous materials are authorized to pack and ship the batteries to locations other than Bluefin Robotics. Non-certified personnel may pack the batteries in their original shipping box and ship them back to Bluefin Robotics.**
 
@@ -182,7 +183,7 @@ The warnings, cautions, and notes contained in this manual are defined as follow
  **CAUTION: Do not power wash the UUV or its components as this may cause damage to the UUV or its components.**
 
 ![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
- **CAUTION: Do not use an O-ring that shows any sign of damage or wear. **
+ **CAUTION: Do not use an O-ring that shows any sign of damage or wear.**
 
 **Do not remove a connector by pulling on the cable as this may damage the integrity of the cable.
 Cables and connectors that are pinched, compressed, or otherwise under strain in the stowed position may lose their watertight integrity.**
@@ -197,12 +198,12 @@ Cables and connectors that are pinched, compressed, or otherwise under strain in
  **CAUTION: Before using a Bluefin Battery, vehicle operators must read all warnings provided in this manual.
 Ensure that the vehicle is powered OFF before removing the battery from the vehicle.**
 
-**Batteries should be stored in a cool place (ambient temperature less than 40°C (75°F)) away from direct sunlight. **
+**Batteries should be stored in a cool place (ambient temperature less than 40°C (75°F)) away from direct sunlight.**
 
 ![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
  **CAUTION: Use care not to drop batteries when handling. If a battery is damaged, contact Bluefin before using, moving, or shipping it.**
 
-**Do not allow water to enter the battery. **
+**Do not allow water to enter the battery.**
 
 **Do not place equipment or materials on the battery lid or connectors.**
 
@@ -606,7 +607,8 @@ First, pass the pre-dive checklist and verify that the mission has been uploaded
 WiFi does not work under water. The vehicle can only be monitored while it is at the surface. The vehicle surfaces regularly (at a configurable interval, default 90 seconds) to acquire a GPS location. If it is within wifi range when it surfaces, then the vehicle status will update in qgroundcontrol and commands can be transmitted to it.
 
 ![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
- **CAUTION: WiFi does not work underwater. **
+ **CAUTION: WiFi does not work underwater.**
+ 
  **GPS checks override the mission plan.**
 
 ### How to end a mission
