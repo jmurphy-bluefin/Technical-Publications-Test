@@ -1,4 +1,5 @@
 # Sandshark Operations Manual
+
 ## Notices and Disclaimer
 © 2016 Bluefin Robotics Corporation
 ### Proprietary Material
@@ -1634,7 +1635,7 @@ Trim options:
 
 **Figure: Ballast Mounting Points**
 
-** Table: Ballast Disks and Harware**
+**Table: Ballast Disks and Harware**
 
 | Part Number	| Description |
 | --- | --- |
