@@ -1482,7 +1482,7 @@ The charging brick is a standard laptop charging brick with a 4-pin connector to
 
 **Figure: Charging Brick**
 
-![Connector](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/charger-1.jpg)
+![Connector](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/charger-2.jpg)
 
 **Figure: Connector**
 
