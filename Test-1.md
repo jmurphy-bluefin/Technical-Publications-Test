@@ -217,6 +217,7 @@ Ensure that the vehicle is powered OFF before removing the battery from the vehi
 The Sandshark is a self-propelled, untethered, unmanned underwater vehicle capable of conducting independent survey operations at depths up to 100 meters.
 
 ![100m Sandshark](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+
 **Figure: 100m Sandshark**
 
 The UUV system consists of two sections:
@@ -230,6 +231,7 @@ The tail section is a pressure vessel. Some of its components are commercial off
 ### Cross-Section
 
 ![Tail Section Cross-Section Showing Components](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+
 **Figure: Tail Section Cross-Section Showing Components**
 
 ### Components
@@ -239,6 +241,7 @@ The tail section is a pressure vessel. Some of its components are commercial off
 The tailcone (part number: 000-017-506) contains a motor inside the pressure vessel and a duct and propeller outside it.
 
 ![Tailcone](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+
 **Figure: Tailcone**
 
 #### Fins
@@ -250,6 +253,7 @@ The 4 articulating fins steer the vehicle. There are 2 sets:
 The low speed fins are taller than the high speed fins. Use the low speed fins for mission speeds between 1 and 2 knots. Use the high speed fins for mission speeds between 2 and 4 knots.
 
 ![Installing a High Speed Fin](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+
 **Figure: Installing a High Speed Fin**
 
 #### Battery
@@ -258,6 +262,7 @@ The battery (part number 000-016-395) is a 225 Wh Li ion battery. See Chapter 4,
 <xref>
 
 ![Battery Mounted in the Battery Chassis](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+
 **Figure: The Battery Mounted in the Battery Chassis**
 
 #### Antenna
@@ -265,6 +270,7 @@ The battery (part number 000-016-395) is a 225 Wh Li ion battery. See Chapter 4,
 The antenna (part number: 000-016-391) contains the magnetic ON/OFF switch, communication and GPS antennas, status LEDs, and strobe lights.
 
 ![Antenna](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+
 **Figure: Antenna**
 
 **Table: LED Status**
@@ -300,6 +306,7 @@ The pressure sensor (part number: 000-016-438) is exposed on the front endcap of
 The 8-pin payload and 4-pin charge connectors on the pressure vessel endcap are wet-matable Subconn Micro connectors.
 
 ![Connectors on Endcap](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+
 **Figure:  Connectors on Endcap**
 <xref> See “External Interface” on page 81.
 
@@ -596,6 +603,7 @@ The dive log (also called the ops mission template) is used to record vehicle mi
 First, pass the pre-dive checklist and verify that the mission has been uploaded to the vehicle. Untie the line from the vehicle handle that is leashing the vehicle to the deck. In qgroundcontrol, go to the ADAPT tab and press “DIVE”.
 
 ![Dive Button](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+
 **Figure: DIVE Button**
 
 ### Monitoring a Mission
@@ -612,6 +620,7 @@ WiFi does not work under water. The vehicle can only be monitored while it is at
 To abort a mission, issue an “ASCEND TO SURFACE” command in qgroundcontrol while the vehicle is at the surface and in wifi range.
 
 ![Ascend to Surface Button](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+
 **Figure: ASCEND TO SURFACE Button**
 
 ### Propulsion Motor Special Considerations
@@ -711,6 +720,7 @@ The battery used by the Sandshark is a rechargeable 225 Wh Lithium Ion battery w
 To charge the vehicle, connect the charging brick to the vehicle’s charging connector, as shown in the figure below. The battery charges at a 2 amp rate and will automatically stop charging when it is full. Charging a completely depleted battery takes 4 to 6 hours. The battery can be safely left connected to the charger after charging is completed, but should be taken off the charger after 12 hours.
 
 ![charging the Vehicle](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+
 **Figure: Charging the Vehicle**
 
 ## Battery Details
@@ -858,6 +868,7 @@ aft. The large circuit board on the chassis faces aft.
 7. Gently press the 3 pin mini-fit-jr connector into the left side of the 8-pin mini-fit-jr socket on the battery circuit board until it is fully seated and the clip clicks.
 
   ![Battery Cables](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  
   **Figure: Battery Cables**
 
 8. Gently press the 3-pin C-grid connector into the right side of the 8-pin mini-fit-jr socket.
@@ -939,6 +950,7 @@ To locate the UUV using the Search Boat Position and Range:
 6.  Turn the search boat 90 degrees and drive to a third location and take a new range reading. Make a new annotation on the chart. There should now be three intersecting circles on the chart. The intersection of the three circles indicates the approximate position of the UUV.  (See Figure below.) 
 
   ![Approximate location of UUV at intersection of three circles](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  
   **Figure: Approximate Location of UUV at Intersection of Three Circles**
 
 7. Place a new annotation at the approximate location of the UUV, and annotate it with something meaningful like “Location 1”. This marker will serve as a record of the first approximated location.
@@ -1009,12 +1021,15 @@ More complex, or depot level corrective maintenance requires specialized equipme
 Vehicle fairings are cast aluminum or abs plastic. Each section has ortman key grooves at the ends. When the cylindrical sections are pressed together to connect, the ortman key grooves form a channel for the ortman key. Inserting the teflon ortman key attaches the sections together. The ortman key is inserted through oblong holes in the fairing.
 
 ![Ortman Key Diagram](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+
 **Figure: Ortman Key Diagram**
 
 ![Ortman Key](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+
 **Figure: Ortman Key**
 
 ![Ortman Key Access Hole (Ortman Key end visible](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+
 **Figure: Ortman Key Access Hole (Ortman Key End Visible)**
 
 The vehicle can be operated with some damage to fairings, but must not be operated if there is any damage to sealing surfaces on the pressure vessel fairing.
@@ -1041,6 +1056,7 @@ Teflon ortman keys are used to attach cylindrical vehicle sections together.
 access holes, use needlenose pliers to guide it back in the channel and continue pushing the key in until it is fully inserted.
 
 ![Pliers and Acccess Hole](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+
 **Figure: Pliers and Access Hole**
 
 This completes the ortman key installation procedure.
@@ -1237,9 +1253,11 @@ This task must be performed on a workbench because the woodruff key falls out wh
 1. Using retaining ring pliers, open and remove the retaining ring from the propeller shaft.
 
   ![Retaining Ring](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  
   **Figure: Retaining Ring**
 
   ![Retaining Ring on Propeller Shaft](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  
   **Figure: Retaining Ring on Propeller Shaft**
 
 2. Slide the propeller off the shaft. The woodruff key will fall out.
@@ -1249,6 +1267,7 @@ This task must be performed on a workbench because the woodruff key falls out wh
 4. Insert the woodruff key in the slot on the shaft, curved side in. Hold in place with a finger.
 
   ![Woodruff Key](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  
   **Figure:  Woodruff Key**
 
 5. Align the notch in the propeller’s center hole with the woodruff key and slide it onto the propeller shaft and over the woodruff key. It will hold the woodruff key in place.
@@ -1281,6 +1300,7 @@ The duct slides onto the propeller shaft and is secured to the fairing with 4x 4
 2. Unscrew the 4 screws on the duct with a t-handle hex wrench.
 
   ![Location of Screws on Duct](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  
   **Figure: Location of Screws on Duct**
 
 3. Slide the duct off the propeller shaft.
@@ -1302,7 +1322,7 @@ This completes the duct replacement procedure.
 
 ### Tools and Equipment Required
 
-*N/A
+* N/A
 
 ### Background Information
 
@@ -1319,6 +1339,7 @@ The 4 articulating fins are removed and inserted without tools. The two dowels o
 4. Align the replacement fin so the dowels on the pin match the notch on the connector. Press in gently until the fin is  fully seated.
 
   ![Dowels on Fin Pin and Connector Indent](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  
   **Figure: Dowels on Fin Pin and Connector Indent**
 
 5. Repeat for each fin.
@@ -1388,10 +1409,8 @@ The trigger value for each abort is configurable via the Parameters menu in QGro
 | Abort	| Typical Causes	| Troubleshooting / Suggestions |
 |--- | --- | --- |
 | Over-temperature Abort	| Ambient pressure vessel temperature has risen too high	| This abort triggers if the ambient temperature inside the pressure vessel has exceeded 40°C. This typically only occurs if the vehicle is operated in air for an extended length of time. To cool the pressure vessel, either shut the vehicle down for around ten minutes, or place the vehicle into water |
-| High Pressure Abort	| Ambient pressure inside the pressure vessel has risen too high, indicating a leak	| Bluefin typically operates its vehicles with a vacuum in the pressure vessel. The recommended vacuum for this system is an absolute pressure of 85 kPa.  The high pressure abort will occur if a pressure of greater than 90kPa is detected within the pressure vessel, as this indicates that a leak is present.  If Bluefin has stated that your vehicle should be run at with a vacuum, set the Low Pressure abort to 70 kPa so that it does not trigger.
-When the high pressure abort occurs, immediately remove the vehicle from the water and check for water intrusion and leaks.  If no obvious issues are detected, use a vacuum pump to decrease the pressure in the pressure vessel until the /environmental/environmental pressure reading is at ~85 kPa.  Ensure that the vehicle can hold pressure for an extended period of time before continuing operations|
-| Low Pressure Abort	| Ambient pressure inside the pressure vessel has dropped too low, indicating a leak	| If, due to a known sealing issue with your vehicle, Bluefin has recommended that you operate with positive pressure in the vehicle's pressure vessel rather than a vacuum, this abort will apply instead of the High Pressure one.  In this scenario, the High Pressure abort should be set to 120 kPa so that it does not trigger.  The low pressure abort occurs when the vehicle senses a lower than expected internal pressure, indicating that some air has leaked out of the pressure vessel.
-In the event of a low pressure abort, immediately remove the vehicle from the water and check for leaks or water intrusion.  If there are no obvious physical issues with the pressure vessel, use a pump to increase the pressure inside the pressure vessel until the /environmental/environmental pressure reading is at ~108 kPa.  Ensure that the pressure is not dropping at over 1kPa / 10 hours before continuing operations |
+| High Pressure Abort	| Ambient pressure inside the pressure vessel has risen too high, indicating a leak	| * Bluefin typically operates its vehicles with a vacuum in the pressure vessel. The recommended vacuum for this system is an absolute pressure of 85 kPa.  The high pressure abort will occur if a pressure of greater than 90kPa is detected within the pressure vessel, as this indicates that a leak is present.  If Bluefin has stated that your vehicle should be run at with a vacuum, set the Low Pressure abort to 70 kPa so that it does not trigger.      * When the high pressure abort occurs, immediately remove the vehicle from the water and check for water intrusion and leaks.  If no obvious issues are detected, use a vacuum pump to decrease the pressure in the pressure vessel until the /environmental/environmental pressure reading is at ~85 kPa.  Ensure that the vehicle can hold pressure for an extended period of time before continuing operations|
+| Low Pressure Abort	| Ambient pressure inside the pressure vessel has dropped too low, indicating a leak	| * If, due to a known sealing issue with your vehicle, Bluefin has recommended that you operate with positive pressure in the vehicle's pressure vessel rather than a vacuum, this abort will apply instead of the High Pressure one.  In this scenario, the High Pressure abort should be set to 120 kPa so that it does not trigger.  The low pressure abort occurs when the vehicle senses a lower than expected internal pressure, indicating that some air has leaked out of the pressure vessel.       * In the event of a low pressure abort, immediately remove the vehicle from the water and check for leaks or water intrusion.  If there are no obvious physical issues with the pressure vessel, use a pump to increase the pressure inside the pressure vessel until the /environmental/environmental pressure reading is at ~108 kPa.  Ensure that the pressure is not dropping at over 1kPa / 10 hours before continuing operations |
 | Low Altitude Abort	| Water depth different than expected, operator error when planning the mission	| This abort triggers when the vehicle senses that it is at an altitude lower than 1 meter in order to prevent accidental collisions with the sea floor.  If it occurs, double check that the mission was planned correctly and that the water depth is actually as deep as the charts state. |
 | High Depth Abort	| Operator error when planning the mission	| The depth abort triggers when the vehicle reaches a depth greater than 100 meters to prevent the vehicle from exceeding its depth rating.  When the depth abort occurs, double check that the mission was planned correctly. |
 | Low Battery Abort	| The battery's percent state of charge has fallen too low to continue the mission	| When the battery percent of charge falls below 5%, the low battery abort will trigger.  When the vehicle comes to the surface, charge the battery before continuing operations |
@@ -1419,6 +1438,7 @@ This appendix contains the following UUV checklists:
 This appendix contains information on the external connectors to the pressure vessel.
 
 ![Pressure Vessel Endcap](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+
 **Figure: Pressure Vessel Endcap**
 
 ![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
@@ -1429,6 +1449,7 @@ This appendix contains information on the external connectors to the pressure ve
 The charge connector is a wet-mateable Subconn Micro MCBH4F. Always install a dust cover or dummy cap when not in use.
 
 ![Charge Pinout](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+
 **Figure: Charge Pinout**
 
 ## Payload Connector
@@ -1436,6 +1457,7 @@ The charge connector is a wet-mateable Subconn Micro MCBH4F. Always install a du
 The payload connector is a wet-mateable Subconn Micro MCBH8F. Always install a dust cover or dummy cap when not in use.
 
 ![Payload Pinout](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+
 **Figure: Payload Pinout**
 
 ## Payload Integration
@@ -1455,6 +1477,7 @@ This appendix contains information on the topside equipment used to operate and 
 The Linksys wireless router provided with the system has omnidirectional antennas and a range of 100 meters. 
 
 ![Wireless Router](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+
 **Figure: Wireless Router**
 
 ## Charging Brick
@@ -1462,9 +1485,11 @@ The Linksys wireless router provided with the system has omnidirectional antenna
 The charging brick is a standard laptop charging brick with a 4-pin connector to connect to the vehicle.
 
 ![Charging Brick](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+
 **Figure: Charging Brick**
 
 ![Connector](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+
 **Figure: Connector**
 
 ## Shore Cable
@@ -1495,9 +1520,11 @@ Placing the NORTH side of a magnet over the hall latch will turn ON the vehicle.
 The hall switch responds to magnetic flux densities of 15mT or more. Magnets are provided with the topside equipment. Avoid placing the magnet near the vehicle's tail section as this can affect the on-board compass.
 
 ![Turning on the Vehicle](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+
 **Figure: Turning on the Vehicle**
 
 ![Magnet](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+
 **Figure: Magnet**
 
 ## O-Rings
@@ -1505,6 +1532,7 @@ The hall switch responds to magnetic flux densities of 15mT or more. Magnets are
 The table below lists the o-rings in the spares kit.
 
 **Table: O-Ring Spares Kit** 
+
 | Bluefin No.	| Description	| QTY |
 |--- | --- | --- |
 | 000-019-117	| O-RING, 2-044, 3.739 ID, 3.879 OD, .070 WD, BUNA-N |	
@@ -1517,6 +1545,7 @@ The table below lists the contents of the Tool Kit.
 *Note: All hex screws involved in routine maintenance are 3-32.*
 
 **Table: Tool Kit List**
+
 | Supplier	| Supplier PN	| Description	| QTY |
 | --- | --- | --- | --- |
 | McMaster-Carr	| 7127A37	| SCREWDRIVER, PHILIPS BLADE	| 1 |
@@ -1531,6 +1560,7 @@ The table below lists the contents of the Tool Kit.
 The table below lists the contents of the Spares Kit.
 
 **Table: Spares Kit List** 
+
 | Supplier	| Supplier PN	| Description	| QTY |
 | --- | --- | --- | --- |
 |	|	| Extra #4 hardware	| |
@@ -1548,6 +1578,7 @@ The table below lists the contents of the Spares Kit.
 The table below lists the consumable supplies and vendor information.
 
 **Table: List of Consumables**
+
 | Bluefin Part Number	| Description	| CANNOT SHIP VIA AIR? |
 | --- | --- | --- |
 | 000-001-461	| LUBRICANT, AQUASHIELD, 8OZ TUBE	| |
@@ -1600,9 +1631,11 @@ Trim options:
 * Remove ballast from all points to reduce weight.
 
 ![Ballast Mounting Points](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+
 **Figure: Ballast Mounting Points**
 
 ** Table: Ballast Disks and Harware**
+
 | Part Number	| Description |
 | --- | --- |
 | 000-016-747	| BALLAST WEIGHT, BRASS, 1.000 DIA, 25G |
