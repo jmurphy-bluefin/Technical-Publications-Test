@@ -769,9 +769,9 @@ For ground shipment, the battery can be shipped by non-Hazmat personnel with the
 
 5. Disconnect the C-Grid connector from the 8-pin mini-fit-jr. socket on the top side of the battery to disable the battery.
 
-![Battery Cables](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  ![Battery Cables](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 
-    **Figure: Battery Cables**
+  **Figure: Battery Cables**
 
 6. Disconnect the 3-pin mini-fit-jr connector from the same socket by pressing the clip and pulling straight out.
 
@@ -786,9 +786,9 @@ For ground shipment, the battery can be shipped by non-Hazmat personnel with the
 
 11. Prepare the shipping box by filling the excess space with honeycomb fiberboard inserts.
 
-![Prepared Shipping Box](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  ![Prepared Shipping Box](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 
-    **Figure: Prepared Shipping Box**
+  **Figure: Prepared Shipping Box**
 
 12. Insert the battery in a 3 mil thick plastic bag and roll the top closed.
 
@@ -804,33 +804,33 @@ For ground shipment, the battery can be shipped by non-Hazmat personnel with the
 
 18. Ensure that the shipping box is labeled with the following labels on 2 opposite sides (4  labels per side):
 
-![Class 9 Label (black and white)](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  ![Class 9 Label (black and white)](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 
-    **Figure: Class 9 Label (black and white)**
+  **Figure: Class 9 Label (black and white)**
 
-![This Side Up](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  ![This Side Up](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 
-    **Figure: This Side Up**
+  **Figure: This Side Up**
 
-![UN 3480 Lithium Battery](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  ![UN 3480 Lithium Battery](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 
-    **Figure: UN 3480 Lithium Battery**
+  **Figure: UN 3480 Lithium Battery**
 
-![24 Hour Emergency Contact Information Label](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  ![24 Hour Emergency Contact Information Label](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 
-    **Figure: 24 Hour Emergency Contact Information Label**
+  **Figure: 24 Hour Emergency Contact Information Label**
 
 19. If the person packing the battery has a Hazmat certificate, apply the following label on 2 opposite sides:
 
-![Cargo Aircraft Only Label (orange)](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  ![Cargo Aircraft Only Label (orange)](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 
-    **Figure: Cargo Aircraft Only Label (orange)**
+  **Figure: Cargo Aircraft Only Label (orange)**
 
 20. If the person packing the battery does not have a Hazmat certificate, apply the following label on 2 opposite sides:
 
-![LITHIUM BATTERIES - FORBIDDEN FOR TRANSPORT ABOARD AIRCRAFT AND VESSEL](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  ![LITHIUM BATTERIES - FORBIDDEN FOR TRANSPORT ABOARD AIRCRAFT AND VESSEL](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 
-    **Figure: LITHIUM BATTERIES - FORBIDDEN FOR TRANSPORT ABOARD AIRCRAFT AND VESSEL**
+  **Figure: LITHIUM BATTERIES - FORBIDDEN FOR TRANSPORT ABOARD AIRCRAFT AND VESSEL**
 
 21. Write “235 Wh” on the sides with the labels.
 
