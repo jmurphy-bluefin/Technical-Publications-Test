@@ -216,8 +216,7 @@ Ensure that the vehicle is powered OFF before removing the battery from the vehi
 
 The Sandshark is a self-propelled, untethered, unmanned underwater vehicle capable of conducting independent survey operations at depths up to 100 meters.
 
-<image>
-
+![100m Sandshark](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 **Figure: 100m Sandshark**
 
 The UUV system consists of two sections:
@@ -230,8 +229,7 @@ The tail section is a pressure vessel. Some of its components are commercial off
 
 ### Cross-Section
 
-<image>
-
+![Tail Section Cross-Section Showing Components](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 **Figure: Tail Section Cross-Section Showing Components**
 
 ### Components
@@ -239,7 +237,8 @@ The tail section is a pressure vessel. Some of its components are commercial off
 #### Tailcone
 
 The tailcone (part number: 000-017-506) contains a motor inside the pressure vessel and a duct and propeller outside it.
-<image>
+
+![Tailcone](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 **Figure: Tailcone**
 
 #### Fins
@@ -250,23 +249,22 @@ The 4 articulating fins steer the vehicle. There are 2 sets:
 
 The low speed fins are taller than the high speed fins. Use the low speed fins for mission speeds between 1 and 2 knots. Use the high speed fins for mission speeds between 2 and 4 knots.
 
-<image>
-
+![Installing a High Speed Fin](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 **Figure: Installing a High Speed Fin**
 
 #### Battery
 
 The battery (part number 000-016-395) is a 225 Wh Li ion battery. See Chapter 4, "Power" for more information.
 <xref>
-<image>
+
+![Battery Mounted in the Battery Chassis](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 **Figure: The Battery Mounted in the Battery Chassis**
 
 #### Antenna
 
 The antenna (part number: 000-016-391) contains the magnetic ON/OFF switch, communication and GPS antennas, status LEDs, and strobe lights.
 
-<image>
-
+![Antenna](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 **Figure: Antenna**
 
 **Table: LED Status**
@@ -276,7 +274,7 @@ The antenna (part number: 000-016-391) contains the magnetic ON/OFF switch, comm
 | Blue | Vehicle powered (steady) |
 | Red | * Test failed (steady) * Mission aborting (flashing) * Misson aborted (steady) |
 | Amber	 | Reserved for user-defined payload |
-|Green	| * Ready to run (steady) * Running a mission (flashing) |
+| Green	| * Ready to run (steady) * Running a mission (flashing) |
 
 The visible and infrared strobes are configurable to be:
 * Always on 
@@ -300,7 +298,8 @@ The pressure sensor (part number: 000-016-438) is exposed on the front endcap of
 #### Connectors
 
 The 8-pin payload and 4-pin charge connectors on the pressure vessel endcap are wet-matable Subconn Micro connectors.
-<image>
+
+![Connectors on Endcap](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 **Figure:  Connectors on Endcap**
 <xref> See “External Interface” on page 81.
 
@@ -596,7 +595,7 @@ The dive log (also called the ops mission template) is used to record vehicle mi
 
 First, pass the pre-dive checklist and verify that the mission has been uploaded to the vehicle. Untie the line from the vehicle handle that is leashing the vehicle to the deck. In qgroundcontrol, go to the ADAPT tab and press “DIVE”.
 
-<image>
+![Dive Button](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 **Figure: DIVE Button**
 
 ### Monitoring a Mission
@@ -612,7 +611,7 @@ WiFi does not work under water. The vehicle can only be monitored while it is at
 
 To abort a mission, issue an “ASCEND TO SURFACE” command in qgroundcontrol while the vehicle is at the surface and in wifi range.
 
-<image>
+![Ascend to Surface Button](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 **Figure: ASCEND TO SURFACE Button**
 
 ### Propulsion Motor Special Considerations
@@ -711,8 +710,7 @@ The battery used by the Sandshark is a rechargeable 225 Wh Lithium Ion battery w
 
 To charge the vehicle, connect the charging brick to the vehicle’s charging connector, as shown in the figure below. The battery charges at a 2 amp rate and will automatically stop charging when it is full. Charging a completely depleted battery takes 4 to 6 hours. The battery can be safely left connected to the charger after charging is completed, but should be taken off the charger after 12 hours.
 
-<image>
-
+![charging the Vehicle](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 **Figure: Charging the Vehicle**
 
 ## Battery Details
@@ -859,7 +857,7 @@ aft. The large circuit board on the chassis faces aft.
 
 7. Gently press the 3 pin mini-fit-jr connector into the left side of the 8-pin mini-fit-jr socket on the battery circuit board until it is fully seated and the clip clicks.
 
-<image>
+  ![Battery Cables](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
   **Figure: Battery Cables**
 
 8. Gently press the 3-pin C-grid connector into the right side of the 8-pin mini-fit-jr socket.
@@ -940,7 +938,7 @@ To locate the UUV using the Search Boat Position and Range:
 
 6.  Turn the search boat 90 degrees and drive to a third location and take a new range reading. Make a new annotation on the chart. There should now be three intersecting circles on the chart. The intersection of the three circles indicates the approximate position of the UUV.  (See Figure below.) 
 
-<image>
+  ![Approximate location of UUV at intersection of three circles](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
   **Figure: Approximate Location of UUV at Intersection of Three Circles**
 
 7. Place a new annotation at the approximate location of the UUV, and annotate it with something meaningful like “Location 1”. This marker will serve as a record of the first approximated location.
@@ -1010,13 +1008,13 @@ More complex, or depot level corrective maintenance requires specialized equipme
 
 Vehicle fairings are cast aluminum or abs plastic. Each section has ortman key grooves at the ends. When the cylindrical sections are pressed together to connect, the ortman key grooves form a channel for the ortman key. Inserting the teflon ortman key attaches the sections together. The ortman key is inserted through oblong holes in the fairing.
 
-<image>
+![Ortman Key Diagram](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 **Figure: Ortman Key Diagram**
 
-<image>
+![Ortman Key](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 **Figure: Ortman Key**
 
-<image>
+![Ortman Key Access Hole (Ortman Key end visible](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 **Figure: Ortman Key Access Hole (Ortman Key End Visible)**
 
 The vehicle can be operated with some damage to fairings, but must not be operated if there is any damage to sealing surfaces on the pressure vessel fairing.
@@ -1042,7 +1040,7 @@ Teflon ortman keys are used to attach cylindrical vehicle sections together.
 3. Insert the ortman key through one of the access holes in the fairing. Push it in. As the front end reaches each of the 4 
 access holes, use needlenose pliers to guide it back in the channel and continue pushing the key in until it is fully inserted.
 
-<image>
+![Pliers and Acccess Hole](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 **Figure: Pliers and Access Hole**
 
 This completes the ortman key installation procedure.
@@ -1238,10 +1236,10 @@ This task must be performed on a workbench because the woodruff key falls out wh
 
 1. Using retaining ring pliers, open and remove the retaining ring from the propeller shaft.
 
-<image>
+  ![Retaining Ring](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
   **Figure: Retaining Ring**
 
-<image>
+  ![Retaining Ring on Propeller Shaft](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
   **Figure: Retaining Ring on Propeller Shaft**
 
 2. Slide the propeller off the shaft. The woodruff key will fall out.
@@ -1250,7 +1248,7 @@ This task must be performed on a workbench because the woodruff key falls out wh
 
 4. Insert the woodruff key in the slot on the shaft, curved side in. Hold in place with a finger.
 
-<image>
+  ![Woodruff Key](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
   **Figure:  Woodruff Key**
 
 5. Align the notch in the propeller’s center hole with the woodruff key and slide it onto the propeller shaft and over the woodruff key. It will hold the woodruff key in place.
@@ -1282,7 +1280,7 @@ The duct slides onto the propeller shaft and is secured to the fairing with 4x 4
 
 2. Unscrew the 4 screws on the duct with a t-handle hex wrench.
 
-<image> 
+  ![Location of Screws on Duct](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
   **Figure: Location of Screws on Duct**
 
 3. Slide the duct off the propeller shaft.
@@ -1320,7 +1318,7 @@ The 4 articulating fins are removed and inserted without tools. The two dowels o
 
 4. Align the replacement fin so the dowels on the pin match the notch on the connector. Press in gently until the fin is  fully seated.
 
-<image>
+  ![Dowels on Fin Pin and Connector Indent](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
   **Figure: Dowels on Fin Pin and Connector Indent**
 
 5. Repeat for each fin.
@@ -1420,7 +1418,7 @@ This appendix contains the following UUV checklists:
 
 This appendix contains information on the external connectors to the pressure vessel.
 
-<image>
+![Pressure Vessel Endcap](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 **Figure: Pressure Vessel Endcap**
 
 ![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
@@ -1430,14 +1428,14 @@ This appendix contains information on the external connectors to the pressure ve
 
 The charge connector is a wet-mateable Subconn Micro MCBH4F. Always install a dust cover or dummy cap when not in use.
 
-<image>
+![Charge Pinout](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 **Figure: Charge Pinout**
 
 ## Payload Connector
 
 The payload connector is a wet-mateable Subconn Micro MCBH8F. Always install a dust cover or dummy cap when not in use.
 
-<image>
+![Payload Pinout](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 **Figure: Payload Pinout**
 
 ## Payload Integration
@@ -1456,17 +1454,17 @@ This appendix contains information on the topside equipment used to operate and 
 
 The Linksys wireless router provided with the system has omnidirectional antennas and a range of 100 meters. 
 
-<image>
+![Wireless Router](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 **Figure: Wireless Router**
 
 ## Charging Brick
 
 The charging brick is a standard laptop charging brick with a 4-pin connector to connect to the vehicle.
 
-<image>
+![Charging Brick](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 **Figure: Charging Brick**
 
-<image>
+![Connector](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 **Figure: Connector**
 
 ## Shore Cable
@@ -1496,10 +1494,10 @@ Placing the NORTH side of a magnet over the hall latch will turn ON the vehicle.
 
 The hall switch responds to magnetic flux densities of 15mT or more. Magnets are provided with the topside equipment. Avoid placing the magnet near the vehicle's tail section as this can affect the on-board compass.
 
-<image>
+![Turning on the Vehicle](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 **Figure: Turning on the Vehicle**
 
-<image>
+![Magnet](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 **Figure: Magnet**
 
 ## O-Rings
@@ -1601,7 +1599,7 @@ Trim options:
 
 * Remove ballast from all points to reduce weight.
 
-<image>
+![Ballast Mounting Points](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 **Figure: Ballast Mounting Points**
 
 ** Table: Ballast Disks and Harware**
