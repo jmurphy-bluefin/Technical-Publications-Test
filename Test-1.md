@@ -1,4 +1,4 @@
-# Sandshark Operations Manual
+# Sandshark Operations Guide
 
 ## Notices and Disclaimer
 © 2016 Bluefin Robotics Corporation
@@ -6,12 +6,12 @@
 The information furnished in this document is proprietary to Bluefin Robotics Corporation (Bluefin). Information and descriptions found in this guide may not be copied or reproduced by any means, and may not be disseminated without prior express written permission from Bluefin Robotics Corporation.
 
 ### Trademarks
-Bluefin Robotics is a registered trademark of Bluefin Robotics Corporation. Witness is a trademark of Bluefin Robotics Corporation. Windows is a trademark of Microsoft Corporation. All brand names and product names used in this manual are trademarks, registered trademarks or trade names of their respective holders.
+Bluefin Robotics is a registered trademark of Bluefin Robotics Corporation. Witness is a trademark of Bluefin Robotics Corporation. Windows is a trademark of Microsoft Corporation. All brand names and product names used in this guide are trademarks, registered trademarks or trade names of their respective holders.
 
 ### Limitation of Liability
-The publisher has used their best efforts in preparing this manual. Bluefin Robotics Corporation makes no representation or warranty with respect to the accuracy or completeness of the contents of this manual and specifically disclaims any implied warranties of merchantability or fitness for any particular purpose and shall in no event be liable for any loss of profit or any other commercial damage including but not limited to special, incidental, consequential, or other damages.
+The publisher has used their best efforts in preparing this guide. Bluefin Robotics Corporation makes no representation or warranty with respect to the accuracy or completeness of the contents of this guide and specifically disclaims any implied warranties of merchantability or fitness for any particular purpose and shall in no event be liable for any loss of profit or any other commercial damage including but not limited to special, incidental, consequential, or other damages.
 
-The information in this manual is subject to change without notice at the discretion of Bluefin Robotics Corporation.
+The information in this guide is subject to change without notice at the discretion of Bluefin Robotics Corporation.
 
 How to Contact Bluefin Robotics Corporation:
 
@@ -33,15 +33,15 @@ Based on 000-018-604RA September 18, 2015. New document created in wiki 2016-01-
 
 # Preface
 
-Welcome to the Operations Manual for the Sandshark. This document is intended to familiarize you with the system and provide you with the information necessary to carry out unmanned underwater vehicle (UUV) operations.
+Welcome to the Operations Guide for the Sandshark. This document is intended to familiarize you with the system and provide you with the information necessary to carry out unmanned underwater vehicle (UUV) operations.
 
-To prevent loss or damage to the UUV, Bluefin has included many safety recommendations in this manual that should be followed carefully and should not be changed. These recommendations are highlighted with leading text indicating Warning, Caution, and Note.
+To prevent loss or damage to the UUV, Bluefin has included many safety recommendations in this guide that should be followed carefully and should not be changed. These recommendations are highlighted with leading text indicating Warning, Caution, and Note.
 
-This guide contains references to checklists and other manuals in the documentation set. This includes manuals for open-source software and commercial off-the-shelf (COTS) manuals. Please ensure that you have a full documentation set available before you begin any UUV maintenance, as descriptions of all of the tasks performed in a given procedure may not be covered in this guide. Contact Bluefin if you need extra copies of any manual in this documentation set.
+This guide contains references to checklists and other documents in the documentation set. This includes manuals for open-source software and commercial off-the-shelf (COTS) manuals. Please ensure that you have a full documentation set available before you begin any UUV maintenance, as descriptions of all of the tasks performed in a given procedure may not be covered in this guide. Contact Bluefin if you need extra copies of any documents in this documentation set.
 
 ## List of Reference Documents
 
-This section lists the manuals Bluefin provides for the UUV system. Bluefin recommends that operators, supervisors, and technicians responsible for operating and maintaining the UUV become familiar with the contents of these manuals before using the equipment.
+This section lists the documents Bluefin provides for the UUV system. Bluefin recommends that operators, supervisors, and technicians responsible for operating and maintaining the UUV become familiar with the contents of these documents before using the equipment.
 
 **Table: Reference Documents**
 
@@ -71,7 +71,7 @@ This guide is written for personnel who operate, maintain, troubleshoot, and rep
 
 ## Training
 
-Bluefin has provided this manual to assist you in operating and maintaining the Sandshark system. Users are expected to have undergone Bluefin’s UUV training program. Users operating and maintaining the UUV must be trained in its use. Do not attempt to perform maintenance on or repairs to this system if you have not been trained in operation and maintenance of the UUV. Contact the Marine Operations Department at Bluefin for training details.
+Bluefin has provided this guide to assist you in operating and maintaining the Sandshark system. Users are expected to have undergone Bluefin’s UUV training program. Users operating and maintaining the UUV must be trained in its use. Do not attempt to perform maintenance on or repairs to this system if you have not been trained in operation and maintenance of the UUV. Contact the Marine Operations Department at Bluefin for training details.
 
 ## Glossary
 
@@ -82,7 +82,7 @@ Bluefin has provided this manual to assist you in operating and maintaining the 
 
 ### Abbreviations and Product Specific Terms
 
-The abbreviations and product specific terminology used in this manual are described in the table below.
+The abbreviations and product specific terminology used in this guide are described in the table below.
 
 **Table: Glossary**
 
@@ -100,7 +100,7 @@ The abbreviations and product specific terminology used in this manual are descr
 
 ## Classification of Hazards
 
-The warnings, cautions, and notes contained in this manual are defined as follows:
+The warnings, cautions, and notes contained in this guide are defined as follows:
 
 **Warning**
 
@@ -127,7 +127,7 @@ The warnings, cautions, and notes contained in this manual are defined as follow
 
 ### Battery Warnings
 
-![Warning](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)	**WARNING: Before operating an UUV Battery, operators must read all warnings provided in this manual.**
+![Warning](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)	**WARNING: Before operating an UUV Battery, operators must read all warnings provided in this guide.**
 
 **Batteries are defined as hazardous materials for the purpose of shipping and cannot be shipped with the rest of the system. Remove the batteries and ship separately. Only personnel certified in shipping hazardous materials are authorized to pack and ship batteries. Non-certified personnel may repack the batteries in the original shipping box for return to Bluefin Robotics.**
 
@@ -196,7 +196,7 @@ Cables and connectors that are pinched, compressed, or otherwise under strain in
 ### Battery Cautions
 
 ![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
- **CAUTION: Before using a Bluefin Battery, vehicle operators must read all warnings provided in this manual.
+ **CAUTION: Before using a Bluefin Battery, vehicle operators must read all warnings provided in this guide.
 Ensure that the vehicle is powered OFF before removing the battery from the vehicle.**
 
 **Batteries should be stored in a cool place (ambient temperature less than 40°C (75°F)) away from direct sunlight.**
@@ -259,8 +259,9 @@ The low speed fins are taller than the high speed fins. Use the low speed fins f
 
 #### Battery
 
-The battery (part number 000-016-395) is a 225 Wh Li ion battery. See Chapter 4, "Power" for more information.
-<xref>
+The battery (part number 000-016-395) is a 225 Wh Li ion battery. For more information, see
+
+https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Test-1.md#power
 
 ![Battery Mounted in the Battery Chassis](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/battery-in-chassis.jpg)
 
@@ -323,8 +324,9 @@ The DARPA ECO-PUCK payload is a plug-and-play environmental monitoring payload. 
 
 ## Equipment Requirements
 
-The components required to operate and maintain the UUV are listed in Appendix “Topside Equipment” on page 83. 
-<xref>
+The components required to operate and maintain the UUV are listed here:
+
+https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Test-1.md#topside-equipment
 
 ## Personnel Requirements
 
@@ -596,8 +598,9 @@ The pre-dive checklist contains verification tasks on land and in water. Tie a l
 
 ### Dive Log
 
-The dive log (also called the ops mission template) is used to record vehicle mission properties, statuses, and events. A blank dive log is located in “UUV Checklists” on page 71.
-<xref>
+The dive log (also called the ops mission template) is used to record vehicle mission properties, statuses, and events. A blank dive log is located here:
+
+https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/Sandshark_Dive_Log.jpg
 
 ## Starting a Mission
 
@@ -633,8 +636,9 @@ If the propeller does not start moving when it is expected to, insert a stick in
 
 ### Vehicle Location and Recovery
 
-At the end of a mission the UUV is typically located either at the recovery location, by seeing the strobe light, or by using omnidirectional wifi communications from the operator laptop. If the UUV cannot be located through these methods it can be located using the procedures described in “Emergency Procedures” on page 41.
-<xref>
+At the end of a mission the UUV is typically located either at the recovery location, by seeing the strobe light, or by using omnidirectional wifi communications from the operator laptop. If the UUV cannot be located through these methods it can be located using the procedures described here:
+
+https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Test-1.md#emergency-procedures
 
 Bluefin strongly recommends installing an emergency locator device in the payload section of the Sandshark. Some options include:
 
@@ -673,8 +677,7 @@ Pass one end of the neodymium magnet over the magnetic switch in the aft upper c
 
 ### Freshwater Rinse
 
-At the end of the operations day the vehicle fairing must be rinsed with fresh water. See “Preventive Maintenance Procedure” on page 30.
-<xref>
+At the end of the operations day the vehicle fairing must be rinsed with fresh water as described below.
 
 ## Preventive Maintenance Procedure: Fresh Water Rinse
 
@@ -771,8 +774,7 @@ For ground shipment, the battery can be shipped by non-Hazmat personnel with the
 
 2. Turn the vehicle off.
 
-3. Separate the battery and control housing subsection from the fin housing subsection.
-<xref> See “Section Separating Procedure” on page 55.
+3. Separate the battery and control housing subsection from the fin housing subsection as described here: https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Test-1.md#procedure-separate-sections
 
 4. Slide the battery chassis out of the housing.
 
@@ -790,8 +792,7 @@ For ground shipment, the battery can be shipped by non-Hazmat personnel with the
 
 9. Stow the ends of the cables in the battery chassis. Slide the chassis back into the battery and control housing.
 
-10. Attach the battery and control housing subsection to the fin housing subsection.
-<xref> See “Section Attachment Procedure” on page 54.
+10. Attach the battery and control housing subsection to the fin housing subsection. https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Test-1.md#procedure-attach-sections
 
 11. Prepare the shipping box by filling the excess space with honeycomb fiberboard inserts.
 
@@ -876,8 +877,7 @@ aft. The large circuit board on the chassis faces aft.
 
 9. Slide the battery in the battery chassis into the battery and control housing.
 
-10. Attach the battery and control housing subsection to the fin housing subsection.
-<xref>See “Section Attachment Procedure” on page 54.
+10. Attach the battery and control housing subsection to the fin housing subsection. https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Test-1.md#procedure-attach-sections
 
 This completes the procedure for unpacking the battery.
 
@@ -1009,11 +1009,11 @@ Bluefin recommends the use of both the strobe and reflective tape to ensure the 
 
 ## Introduction
 
-This chapter explains maintenance procedures required in normal operation.
+This section explains maintenance procedures required in normal operation.
 
 Corrective maintenance procedures are performed on the vehicle system when operational tests, failure diagnosis, or other observations have detected a failure in the system that can be repaired by the vehicle operator or technician.
 
-The Repair Manual contains only those intermediate level maintenance procedures which can be performed by the technician in a workshop or ISO van in the field. Bluefin-approved parts and procedures must be used to repair the MEH. Using unapproved parts and procedures will void the vehicle warranty.
+This guide contains only those intermediate level maintenance procedures which can be performed by the technician in a workshop or ISO van in the field. Bluefin-approved parts and procedures must be used to repair the MEH. Using unapproved parts and procedures will void the vehicle warranty.
 
 More complex, or depot level corrective maintenance requires specialized equipment and extensive disassembly of vehicle components. Depot level maintenance is carried out by Bluefin Robotics, either on site or at Bluefin’s facilities.
 
@@ -1115,8 +1115,7 @@ are in the tail section:
 
 2. Slide the sections together so the ortman grooves align. Verify that the o-rings are not pinched or torn.
 
-3. Install the ortman key.
-<xref> See “Ortman Key Installation Procedure” on page 51.
+3. Install the ortman key. https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Test-1.md#procedure-ortman-key-installation
 
 This completes the section attachment procedure.
 
@@ -1132,8 +1131,7 @@ Sections are attached with an ortman key.
 
 ### Description of Work
 
-1. Remove the ortman key.
-<xref> See “Ortman Key Removal Procedure” on page 52.
+1. Remove the ortman key. https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Test-1.md#procedure-ortman-key-removal
 
 2. Slide the sections apart.
 
@@ -1210,8 +1208,7 @@ The cast aluminum tail section is a pressure vessel and must be properly sealed 
 
 ### Description of Work
 
-1. Attach the sections.
-<xref> See “Section Attachment Procedure” on page 54.
+1. Attach the sections. https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Test-1.md#procedure-attach-sections
 
 2. Turn on the vehicle
 
@@ -1295,8 +1292,7 @@ The duct slides onto the propeller shaft and is secured to the fairing with 4x 4
 
 ### Description of Work
 
-1. Remove the propeller.
-<xref> See “Propeller Replacement Procedure” on page 59.
+1. Remove the propeller. https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Test-1.md#procedure-replace-propeller
 
 2. Unscrew the 4 screws on the duct with a t-handle hex wrench.
 
@@ -1314,8 +1310,7 @@ The duct slides onto the propeller shaft and is secured to the fairing with 4x 4
 
 7. Using a t-handle hex wrench, engage the 4 screws in the mounting holes, then tighten down in a star pattern.
 
-8. Install the propeller.
-<xref>See “Propeller Replacement Procedure” on page 59.
+8. Install the propeller. https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Test-1.md#procedure-replace-propeller
 
 This completes the duct replacement procedure.
 
@@ -1354,30 +1349,28 @@ This completes the fin replacement procedure.
 
 ## Introduction
 
-This chapter explains some common causes of vehicle problems and how to correct them.
+This section explains some common causes of vehicle problems and how to correct them.
 
 Corrective maintenance procedures are performed on the vehicle system when operational tests, failure diagnosis, or other observations have detected a failure in the system that can be repaired by the vehicle operator or technician.
 
-This chapter contains only those intermediate level maintenance procedures which can be performed by the technician in a workshop or ISO van in the field. Bluefin-approved parts and procedures must be used to repair the pressure vessel. Using unapproved parts and procedures will void the vehicle warranty.
+This section contains only those intermediate level maintenance procedures which can be performed by the technician in a workshop or ISO van in the field. Bluefin-approved parts and procedures must be used to repair the pressure vessel. Using unapproved parts and procedures will void the vehicle warranty.
 
 More complex, or depot level corrective maintenance requires specialized equipment and extensive disassembly of vehicle components. Depot level maintenance is carried out by Bluefin Robotics, either on site or at Bluefin’s facilities.
 
 ![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
  **CAUTION: Never unseal the pressure vessels outdoors.**
 
-**All procedures in the Repair chapter are intermediate level maintenance. They can be performed in a properly equiped workshop or ISO van.**
+**All procedures in the Repair section are intermediate level maintenance. They can be performed in a properly equiped workshop or ISO van.**
 
 **Use only Bluefin-approved parts and procedures. Using unapproved parts and procedures will void the vehicle warranty.**
 
 ## Roll and CB-CG Separation
 
-Increase CB-CG separation to reduce roll and pitch instability.
-<xref>See “Trim Instructions” on page 91.
+Increase CB-CG separation to reduce roll and pitch instability. https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Test-1.md#trim-instructions
 
 ## Brownout
 
-Do not let the motor run if the propeller does not turn. Do not run the propeller for more than 5 minutes in air.
-<xref> See “Propulsion Motor Special Considerations” on page 27.
+Do not let the motor run if the propeller does not turn. Do not run the propeller for more than 5 minutes in air. https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Test-1.md#propulsion-motor-special-considerations
 
 ## Magnetometer and Accelerometer Calibration
 
@@ -1387,9 +1380,9 @@ qgroundcontrol will accept any calibration above its minimum standards. Repeat t
 
 * Magnetometer: find an area without metal objects in a radius >25 meters, such as a large field.
 
-<xref> See “Accelerometer Configuration” on page 21.
+https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Test-1.md#accelerometer-configuration
 
-<xref> See “Magnetometer Calibration” on page 22.
+https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Test-1.md#magnetometer-calibration
 
 ## Waypoint Catch Radius
 
@@ -1422,21 +1415,21 @@ The trigger value for each abort is configurable via the Parameters menu in QGro
 
 # UUV Checklists
 
-This appendix contains the following UUV checklists:
+This section contains links to the following UUV checklists:
 
-* Sandshark Pre-Dive Checklist
+* Sandshark Pre-Dive Checklist https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/Sandshark_Pre-Dive_Checklist.jpg
 
-* Sandshark Dive Log
+* Sandshark Dive Log https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/Sandshark_Dive_Log.jpg
 
-* Sandshark Post-Dive Checklist
+* Sandshark Post-Dive Checklist https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/Sandshark_Post-Dive_Checklist.jpg
 
-* Sandshark Mobilization Checklist
+* Sandshark Mobilization Checklist https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/Sandshark_Mobilization_Checklist.jpg
 
 
 
 # External Interface
 
-This appendix contains information on the external connectors to the pressure vessel.
+This section contains information on the external connectors to the pressure vessel.
 
 ![Pressure Vessel Endcap](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 
@@ -1471,7 +1464,7 @@ For payload integration support, contact Bluefin Robotics at support@bluefinrobo
 
 # Topside Equipment
 
-This appendix contains information on the topside equipment used to operate and maintain the Sandshark Prototype.
+This section contains information on the topside equipment used to operate and maintain the Sandshark Prototype.
 
 ## WiFi Usage
 
@@ -1596,14 +1589,13 @@ The table below lists the consumable supplies and vendor information.
 
 # Trim Instructions
 
-This appendix contains the trim and ballast instructions. 
+This section contains the trim and ballast instructions. 
 
 ## Payload Section
 
 Wet payload sections should contain internal mounting points with a zip-tie hole. Use zip-ties to attach foam and ballast weights. Generally, foam should be in the top half of the section and ballast weights in the bottom half. For dense, heavy payloads, foam may need to fill all free space in the section.
 
-Dry payload sections should contain external mounting points similar to the tail section mounting points. See “Tail Section” on page 92.
-<xref>
+Dry payload sections should contain external mounting points similar to the tail section mounting points. https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Test-1.md#tail-section
 
 Trim options (inside the hull):
 
