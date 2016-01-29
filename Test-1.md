@@ -1,6 +1,6 @@
 # Sandshark Operations Manual
 ## Notices and Disclaimer
-© 2015 Bluefin Robotics Corporation
+© 2016 Bluefin Robotics Corporation
 ### Proprietary Material
 The information furnished in this document is proprietary to Bluefin Robotics Corporation (Bluefin). Information and descriptions found in this guide may not be copied or reproduced by any means, and may not be disseminated without prior express written permission from Bluefin Robotics Corporation.
 
@@ -46,7 +46,7 @@ This section lists the manuals Bluefin provides for the UUV system. Bluefin reco
 
 | Document Name | Location |
 | --- | --- |
-| Sandshark Quickstart Card	| https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Quick-Reference-Card |
+| Sandshark Quickstart Card	| https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Quick-Reference-Card.md |
 | Sandshark Pre-Dive Checklist | https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/Sandshark_Pre-Dive_Checklist.jpg |
 | Sandshark Dive Log | https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/Sandshark_Dive_Log.jpg |
 | Sandshark Post-Dive Checklist | https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/Sandshark_Post-Dive_Checklist.jpg |
