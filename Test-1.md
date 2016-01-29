@@ -217,7 +217,7 @@ Ensure that the vehicle is powered OFF before removing the battery from the vehi
 
 The Sandshark is a self-propelled, untethered, unmanned underwater vehicle capable of conducting independent survey operations at depths up to 100 meters.
 
-![100m Sandshark](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+![100m Sandshark](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/fairings-on-1.JPG)
 
 **Figure: 100m Sandshark**
 
@@ -231,7 +231,7 @@ The tail section is a pressure vessel. Some of its components are commercial off
 
 ### Cross-Section
 
-![Tail Section Cross-Section Showing Components](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+![Tail Section Cross-Section Showing Components](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/tail-section-cross-section-angle-2.jpg)
 
 **Figure: Tail Section Cross-Section Showing Components**
 
@@ -241,7 +241,7 @@ The tail section is a pressure vessel. Some of its components are commercial off
 
 The tailcone (part number: 000-017-506) contains a motor inside the pressure vessel and a duct and propeller outside it.
 
-![Tailcone](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+![Tailcone](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/tailcone.jpg)
 
 **Figure: Tailcone**
 
@@ -253,7 +253,7 @@ The 4 articulating fins steer the vehicle. There are 2 sets:
 
 The low speed fins are taller than the high speed fins. Use the low speed fins for mission speeds between 1 and 2 knots. Use the high speed fins for mission speeds between 2 and 4 knots.
 
-![Installing a High Speed Fin](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+![Installing a High Speed Fin](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/high-speed-fin.jpg)
 
 **Figure: Installing a High Speed Fin**
 
@@ -262,7 +262,7 @@ The low speed fins are taller than the high speed fins. Use the low speed fins f
 The battery (part number 000-016-395) is a 225 Wh Li ion battery. See Chapter 4, "Power" for more information.
 <xref>
 
-![Battery Mounted in the Battery Chassis](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+![Battery Mounted in the Battery Chassis](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/battery-in-chassis.jpg)
 
 **Figure: The Battery Mounted in the Battery Chassis**
 
@@ -720,7 +720,7 @@ The battery used by the Sandshark is a rechargeable 225 Wh Lithium Ion battery w
 
 To charge the vehicle, connect the charging brick to the vehicle’s charging connector, as shown in the figure below. The battery charges at a 2 amp rate and will automatically stop charging when it is full. Charging a completely depleted battery takes 4 to 6 hours. The battery can be safely left connected to the charger after charging is completed, but should be taken off the charger after 12 hours.
 
-![charging the Vehicle](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+![charging the Vehicle](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/charger-3.jpg)
 
 **Figure: Charging the Vehicle**
 
@@ -795,7 +795,7 @@ For ground shipment, the battery can be shipped by non-Hazmat personnel with the
 
 11. Prepare the shipping box by filling the excess space with honeycomb fiberboard inserts.
 
-  ![Prepared Shipping Box](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  ![Prepared Shipping Box](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/battery-box.jpg)
 
   **Figure: Prepared Shipping Box**
 
@@ -813,31 +813,31 @@ For ground shipment, the battery can be shipped by non-Hazmat personnel with the
 
 18. Ensure that the shipping box is labeled with the following labels on 2 opposite sides (4  labels per side):
 
-  ![Class 9 Label (black and white)](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  ![Class 9 Label (black and white)](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/sticker-9.jpg)
 
   **Figure: Class 9 Label (black and white)**
 
-  ![This Side Up](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  ![This Side Up](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/sticker-up.jpg)
 
   **Figure: This Side Up**
 
-  ![UN 3480 Lithium Battery](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  ![UN 3480 Lithium Battery](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/sticker-un.jpg)
 
   **Figure: UN 3480 Lithium Battery**
 
-  ![24 Hour Emergency Contact Information Label](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  ![24 Hour Emergency Contact Information Label](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/sticker-24.jpg)
 
   **Figure: 24 Hour Emergency Contact Information Label**
 
 19. If the person packing the battery has a Hazmat certificate, apply the following label on 2 opposite sides:
 
-  ![Cargo Aircraft Only Label (orange)](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  ![Cargo Aircraft Only Label (orange)](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/sticker-cargo.jpg)
 
   **Figure: Cargo Aircraft Only Label (orange)**
 
 20. If the person packing the battery does not have a Hazmat certificate, apply the following label on 2 opposite sides:
 
-  ![LITHIUM BATTERIES - FORBIDDEN FOR TRANSPORT ABOARD AIRCRAFT AND VESSEL](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  ![LITHIUM BATTERIES - FORBIDDEN FOR TRANSPORT ABOARD AIRCRAFT AND VESSEL](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/sticker-lith-batt.jpg)
 
   **Figure: LITHIUM BATTERIES - FORBIDDEN FOR TRANSPORT ABOARD AIRCRAFT AND VESSEL**
 
@@ -1025,11 +1025,11 @@ Vehicle fairings are cast aluminum or abs plastic. Each section has ortman key g
 
 **Figure: Ortman Key Diagram**
 
-![Ortman Key](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+![Ortman Key](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/ortman-key.jpg)
 
 **Figure: Ortman Key**
 
-![Ortman Key Access Hole (Ortman Key end visible](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+![Ortman Key Access Hole (Ortman Key end visible](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/ortman-key-hole.jpg)
 
 **Figure: Ortman Key Access Hole (Ortman Key End Visible)**
 
@@ -1056,7 +1056,7 @@ Teflon ortman keys are used to attach cylindrical vehicle sections together.
 3. Insert the ortman key through one of the access holes in the fairing. Push it in. As the front end reaches each of the 4 
 access holes, use needlenose pliers to guide it back in the channel and continue pushing the key in until it is fully inserted.
 
-![Pliers and Acccess Hole](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+![Pliers and Acccess Hole](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/ortman-needlenose.jpg)
 
 **Figure: Pliers and Access Hole**
 
@@ -1253,11 +1253,11 @@ This task must be performed on a workbench because the woodruff key falls out wh
 
 1. Using retaining ring pliers, open and remove the retaining ring from the propeller shaft.
 
-  ![Retaining Ring](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  ![Retaining Ring](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/retaining-ring-1.jpg)
   
   **Figure: Retaining Ring**
 
-  ![Retaining Ring on Propeller Shaft](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  ![Retaining Ring on Propeller Shaft](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/retaining-ring-2.jpg)
   
   **Figure: Retaining Ring on Propeller Shaft**
 
@@ -1339,7 +1339,7 @@ The 4 articulating fins are removed and inserted without tools. The two dowels o
 
 4. Align the replacement fin so the dowels on the pin match the notch on the connector. Press in gently until the fin is  fully seated.
 
-  ![Dowels on Fin Pin and Connector Indent](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  ![Dowels on Fin Pin and Connector Indent](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/fin-install.jpg)
   
   **Figure: Dowels on Fin Pin and Connector Indent**
 
@@ -1449,7 +1449,7 @@ This appendix contains information on the external connectors to the pressure ve
 
 The charge connector is a wet-mateable Subconn Micro MCBH4F. Always install a dust cover or dummy cap when not in use.
 
-![Charge Pinout](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+![Charge Pinout](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/4-pin-pinout.jpg)
 
 **Figure: Charge Pinout**
 
@@ -1457,7 +1457,7 @@ The charge connector is a wet-mateable Subconn Micro MCBH4F. Always install a du
 
 The payload connector is a wet-mateable Subconn Micro MCBH8F. Always install a dust cover or dummy cap when not in use.
 
-![Payload Pinout](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+![Payload Pinout](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/8-pin-pinout.jpg)
 
 **Figure: Payload Pinout**
 
@@ -1477,7 +1477,7 @@ This appendix contains information on the topside equipment used to operate and 
 
 The Linksys wireless router provided with the system has omnidirectional antennas and a range of 100 meters. 
 
-![Wireless Router](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+![Wireless Router](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/wireless-router.jpg)
 
 **Figure: Wireless Router**
 
@@ -1485,11 +1485,11 @@ The Linksys wireless router provided with the system has omnidirectional antenna
 
 The charging brick is a standard laptop charging brick with a 4-pin connector to connect to the vehicle.
 
-![Charging Brick](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+![Charging Brick](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/charger-1.jpg)
 
 **Figure: Charging Brick**
 
-![Connector](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+![Connector](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/charger-1.jpg)
 
 **Figure: Connector**
 
@@ -1520,11 +1520,11 @@ Placing the NORTH side of a magnet over the hall latch will turn ON the vehicle.
 
 The hall switch responds to magnetic flux densities of 15mT or more. Magnets are provided with the topside equipment. Avoid placing the magnet near the vehicle's tail section as this can affect the on-board compass.
 
-![Turning on the Vehicle](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+![Turning on the Vehicle](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/turn-on-vehicle-2.jpg)
 
 **Figure: Turning on the Vehicle**
 
-![Magnet](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+![Magnet](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/magnet.jpg)
 
 **Figure: Magnet**
 
