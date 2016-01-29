@@ -1,14 +1,14 @@
 # MSDS Sheets
 
 The Sandshark vehicle uses materials with the following MSDS sheets.
-* 1
-* 2
-* 3
-* 4
-* 5
-* 6
-* 7
-
+* 3M Silicone Spray https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/MSDS.md#3m-silicone-spray
+* Aquashield https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/MSDS.md#aquashield
+* Dow Corning 4 Electrical Insulating Compound(DC-4) https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/MSDS.md#dow-corningr-4-electrical-insulating-compound-dc-4
+* Duster (Air) https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/MSDS.md#duster-air
+* Loctite 222MS https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/MSDS.md#loctite-222ms
+* AllCell Phase Change Material (PCM) https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/MSDS.md#allcell-phase-change-material-pcm
+* Lithium Ion Rechargable Battery Cell https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/MSDS.md#lithium-ion-rechargeable-battery-cell
+* Lithium Ion Battery https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/MSDS.md#icr18650-lithium-ion-battery
 
 
 
