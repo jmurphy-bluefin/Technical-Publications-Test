@@ -46,17 +46,17 @@ This section lists the manuals Bluefin provides for the UUV system. Bluefin reco
 
 | Document Name | Location |
 | --- | --- |
-| Sandshark Quickstart Card	|  |
-| Sandshark Pre-Dive Checklist | Technical-Publications-Test/Images/Sandshark_Pre-Dive_Checklist.jpg |
-| Sandshark Dive Log | Technical-Publications-Test/Images/Sandshark_Dive_Log.jpg |
-| Sandshark Post-Dive Checklist | Technical-Publications-Test/Images/Sandshark_Post-Dive_Checklist.jpg |
-| Sandshark Mobilization Checklist | Technical-Publications-Test/Images/Sandshark_Mobilization_Checklist.jpg |
+| Sandshark Quickstart Card	| https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Quick-Reference-Card |
+| Sandshark Pre-Dive Checklist | https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/Sandshark_Pre-Dive_Checklist.jpg |
+| Sandshark Dive Log | https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/Sandshark_Dive_Log.jpg |
+| Sandshark Post-Dive Checklist | https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/Sandshark_Post-Dive_Checklist.jpg |
+| Sandshark Mobilization Checklist | https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/Sandshark_Mobilization_Checklist.jpg |
 | qgroundcontrol User Guide | http://qgroundcontrol.org/ |
 | ROS User Guide | http://wiki.ros.org |
 | ROS Cheat Sheet | http://services.informatik.hs-mannheim.de/~ihme/robotik_2014ws/01_ROScheatsheet.pdf |
 | A Gentle Introduction to ROS: | https://cse.sc.edu/~jokane/agitr/ |
 | Commercial Off The Shelf (COTS) Manuals | Contact Bluefin |
-| Material Safety Data Sheets (MSDS) Package |  |
+| Material Safety Data Sheets (MSDS) Package | https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/MSDS.md |
 
 
 ## Intended Audience
