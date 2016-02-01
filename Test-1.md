@@ -1437,7 +1437,7 @@ This section contains links to the following UUV checklists:
 
 This section contains information on the external connectors to the pressure vessel.
 
-![Pressure Vessel Endcap](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/sk-endcap-connectors.jpg)
+![Pressure Vessel Endcap](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/sk-endcap-connectors.JPG)
 
 **Figure: Pressure Vessel Endcap Connectors**
 
@@ -1629,7 +1629,7 @@ Trim options:
 
 * Remove ballast from all points to reduce weight.
 
-![Ballast Mounting Points](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/sk-endcap-ballast.jpg)
+![Ballast Mounting Points](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/sk-endcap-ballast.JPG)
 
 **Figure: Ballast Mounting Points**
 
