@@ -310,7 +310,10 @@ The 8-pin payload and 4-pin charge connectors on the pressure vessel endcap are 
 ![Connectors on Endcap](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
 
 **Figure:  Connectors on Endcap**
-<xref> See “External Interface” on page 81.
+
+For more information, see:
+
+https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Test-1.md#external-interface
 
 ## UUV Components: Payload Section
 
@@ -354,7 +357,7 @@ The table below describes the type of information found in the preventative and 
 
 |Heading |Description |
 |--- | --- |
-| Procedure Type	| A short two- or three-word phrase that indicates a preventative, corrective, or assembly procedure. Maintenance procedures always start on a new page. |
+| Procedure Type	| A short two- or three-word phrase that indicates a preventative, corrective, or assembly procedure. |
 | Procedure Name	| The name of the maintenance procedure described (e.g., “Replacing the Dropweight”). |
 | Tools and Equipment Required	 | A list of tools and equipment required to perform the maintenance procedure. |
 | Background Information | Any important information that helps you perform the procedure. Sometimes this is an important note or basic information about the component on which you are about to perform maintenance.  |
@@ -526,12 +529,14 @@ During testing and the pre-dive checkout, the vehicle should be leashed by tying
 
 ### Ballasting and trimming the vehicle
 
-The vehicle must be ballasted and trimmed correctly to provide a stable base for data gathering. See “Trim Instructions” on page 91. for detailed trim instructions.
-<xref>
+The vehicle must be ballasted and trimmed correctly to provide a stable base for data gathering. See Trim Instructions for details:
+
+https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Test-1.md#trim-instructions
 
 User-defined payload modules should fit inside a 4-7/8” OD shell, weigh less than 7.5 lb (3.3 kg), and be shorter than 23 inches (.58 meters) including the nose or shorter than 19 inches (.48 meters) if using the Bluefin nose. 
 
 **Table: Properties of UUV with Empty Payload**
+
 | Property	| Value |
 |--- | ---|
 | Mass	| 12.5 lb (5.7 kg) |
@@ -589,8 +594,9 @@ The key limits are:
 ![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
  **CAUTION: Always pick up the vehicle by the handle or by gripping the hull. The tailcone, antenna, and fins cannot support the weight of the vehicle.**
 
-The pre-dive checklist is used to check the vehicle status and readiness for a mission. A blank pre-dive checklist is located in “UUV Checklists” on page 71.
-<xref>
+The pre-dive checklist is used to check the vehicle status and readiness for a mission. A blank Pre-Dive checklist is here:
+
+https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/Sandshark_Pre-Dive_Checklist.jpg
 
 The pre-dive checklist contains verification tasks on land and in water. Tie a line to the vehicle handle and tie the other end of the line down on deck before putting the vehicle in the water for the pre-dive checklist. remove the line only when the vehicle has passed the checklist.
 
