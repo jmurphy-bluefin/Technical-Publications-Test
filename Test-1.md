@@ -271,7 +271,7 @@ https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Test-
 
 The antenna (part number: 000-016-391) contains the magnetic ON/OFF switch, communication and GPS antennas, status LEDs, and strobe lights.
 
-![Antenna](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+![Antenna](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/antenna.jpg)
 
 **Figure: Antenna**
 
@@ -307,7 +307,7 @@ The pressure sensor (part number: 000-016-438) is exposed on the front endcap of
 
 The 8-pin payload and 4-pin charge connectors on the pressure vessel endcap are wet-matable Subconn Micro connectors.
 
-![Connectors on Endcap](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+![Connectors on Endcap](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/connectors-1.jpg)
 
 **Figure:  Connectors on Endcap**
 
@@ -612,7 +612,7 @@ https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Image
 
 First, pass the pre-dive checklist and verify that the mission has been uploaded to the vehicle. Untie the line from the vehicle handle that is leashing the vehicle to the deck. In qgroundcontrol, go to the ADAPT tab and press “DIVE”.
 
-![Dive Button](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+![Dive Button](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/qground-control-dive.jpg)
 
 **Figure: DIVE Button**
 
@@ -629,7 +629,7 @@ WiFi does not work under water. The vehicle can only be monitored while it is at
 
 To abort a mission, issue an “ASCEND TO SURFACE” command in qgroundcontrol while the vehicle is at the surface and in wifi range.
 
-![Ascend to Surface Button](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+![Ascend to Surface Button](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/qground-control-ascend.jpg)
 
 **Figure: ASCEND TO SURFACE Button**
 
@@ -786,7 +786,7 @@ For ground shipment, the battery can be shipped by non-Hazmat personnel with the
 
 5. Disconnect the C-Grid connector from the 8-pin mini-fit-jr. socket on the top side of the battery to disable the battery.
 
-  ![Battery Cables](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  ![Battery Cables](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/battery-cable-disconnect.jpg)
 
   **Figure: Battery Cables**
 
@@ -875,7 +875,7 @@ aft. The large circuit board on the chassis faces aft.
 
 7. Gently press the 3 pin mini-fit-jr connector into the left side of the 8-pin mini-fit-jr socket on the battery circuit board until it is fully seated and the clip clicks.
 
-  ![Battery Cables](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  ![Battery Cables](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/battery-cable-connect.jpg)
   
   **Figure: Battery Cables**
 
@@ -956,7 +956,7 @@ To locate the UUV using the Search Boat Position and Range:
 
 6.  Turn the search boat 90 degrees and drive to a third location and take a new range reading. Make a new annotation on the chart. There should now be three intersecting circles on the chart. The intersection of the three circles indicates the approximate position of the UUV.  (See Figure below.) 
 
-  ![Approximate location of UUV at intersection of three circles](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  ![Approximate location of UUV at intersection of three circles](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/three-circles.jpg)
   
   **Figure: Approximate Location of UUV at Intersection of Three Circles**
 
@@ -1027,7 +1027,7 @@ More complex, or depot level corrective maintenance requires specialized equipme
 
 Vehicle fairings are cast aluminum or abs plastic. Each section has ortman key grooves at the ends. When the cylindrical sections are pressed together to connect, the ortman key grooves form a channel for the ortman key. Inserting the teflon ortman key attaches the sections together. The ortman key is inserted through oblong holes in the fairing.
 
-![Ortman Key Diagram](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+![Ortman Key Diagram](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/ortman-key-diagram.jpg)
 
 **Figure: Ortman Key Diagram**
 
@@ -1270,7 +1270,7 @@ This task must be performed on a workbench because the woodruff key falls out wh
 
 4. Insert the woodruff key in the slot on the shaft, curved side in. Hold in place with a finger.
 
-  ![Woodruff Key](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  ![Woodruff Key](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/woodruff-key.jpg)
   
   **Figure:  Woodruff Key**
 
@@ -1302,7 +1302,7 @@ The duct slides onto the propeller shaft and is secured to the fairing with 4x 4
 
 2. Unscrew the 4 screws on the duct with a t-handle hex wrench.
 
-  ![Location of Screws on Duct](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+  ![Location of Screws on Duct](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/tailcone-duct-screws.jpg)
   
   **Figure: Location of Screws on Duct**
 
@@ -1437,9 +1437,9 @@ This section contains links to the following UUV checklists:
 
 This section contains information on the external connectors to the pressure vessel.
 
-![Pressure Vessel Endcap](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+![Pressure Vessel Endcap](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/sk-endcap-connectors.jpg)
 
-**Figure: Pressure Vessel Endcap**
+**Figure: Pressure Vessel Endcap Connectors**
 
 ![Caution](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-caution.jpg)
  **CAUTION: During underwater operation, the external connectors must be mated to a cable or dummy cap.**
@@ -1629,7 +1629,7 @@ Trim options:
 
 * Remove ballast from all points to reduce weight.
 
-![Ballast Mounting Points](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/icon-warning.jpg)
+![Ballast Mounting Points](https://github.com/jmurphy-bluefin/Technical-Publications-Test/blob/master/Images/sk-endcap-ballast.jpg)
 
 **Figure: Ballast Mounting Points**
 
