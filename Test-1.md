@@ -723,7 +723,7 @@ This completes the fresh water rinse of the AUV.
 
 # Power
 
-The battery used by the Sandshark is a rechargeable 225 Wh Lithium Ion battery with cells encased in Phase Change Material (PCM), which absorbs excess heat to limit risk of a thermal event.
+The battery used by the Sandshark is a rechargeable 225 Wh Lithium Ion battery with cells encased in a Passive Thermal Management System (PTMS), which absorbs excess heat to limit risk of a thermal event.
 
 ## Charging the Vehicle
 
@@ -735,7 +735,7 @@ To charge the vehicle, connect the charging brick to the vehicle’s charging co
 
 ## Battery Details
 
-The battery is a 225 Wh Li Ion battery made of Li Ion cells embedded in PCM, a heat absorbing material. PCM and the control circuitry protect it against over-voltage, over-current, under-voltage, over temperature, and under-temperature events. It automatically cell-balances during charging. It is rated for storage from -25°C to 85°C.
+The battery is a 225 Wh Li Ion battery made of Li Ion cells embedded in the PTMS, a heat absorbing technology. the PTMS and the control circuitry protect it against over-voltage, over-current, under-voltage, over temperature, and under-temperature events. It automatically balances cell voltages during charging. It is rated for storage from -25°C to 85°C.
 
 ## UN 38.3 Certificate
 
